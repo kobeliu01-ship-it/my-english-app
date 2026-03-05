@@ -1,0 +1,112 @@
+{
+  "scene": "喝水",
+  "sceneEn": "Drinking Water",
+  "video": "/videos/drinking-water.mp4",
+  "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+  "tabs": [
+    {
+      "id": "words",
+      "label": "单词",
+      "labelEn": "Words",
+      "color": "blue",
+      "items": [
+        {
+          "text": "Water",
+          "hint": "水",
+          "emoji": "💧",
+          "imageUrl": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=400&h=400&fit=crop&auto=format&q=80"
+        },
+        {
+          "text": "Cup",
+          "hint": "杯子",
+          "emoji": "🥤",
+          "imageUrl": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?w=400&h=400&fit=crop&auto=format&q=80"
+        },
+        {
+          "text": "Cold",
+          "hint": "冷的",
+          "emoji": "🧊",
+          "imageUrl": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=400&fit=crop&auto=format&q=80"
+        },
+        {
+          "text": "Warm",
+          "hint": "温热的",
+          "emoji": "♨️",
+          "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=400&fit=crop&auto=format&q=80"
+        }
+      ]
+    },
+    {
+      "id": "commands",
+      "label": "指令",
+      "labelEn": "Commands",
+      "color": "orange",
+      "items": [
+        {
+          "text": "Pour water",
+          "hint": "倒水",
+          "emoji": "🫗",
+          "imageUrl": "https://images.unsplash.com/photo-1559840644-a6a17b30fe8b?w=400&h=400&fit=crop&auto=format&q=80"
+        },
+        {
+          "text": "Drink up",
+          "hint": "喝完",
+          "emoji": "🍶",
+          "imageUrl": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=400&fit=crop&auto=format&q=80"
+        },
+        {
+          "text": "Hold the cup",
+          "hint": "端起杯子",
+          "emoji": "🤲",
+          "imageUrl": "https://images.unsplash.com/photo-1497636577773-613851834ad6?w=400&h=400&fit=crop&auto=format&q=80"
+        }
+      ]
+    },
+    {
+      "id": "feelings",
+      "label": "感受",
+      "labelEn": "Feelings",
+      "color": "purple",
+      "items": [
+        {
+          "text": "Thirsty",
+          "hint": "口渴",
+          "emoji": "😮‍💨",
+          "imageUrl": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=400&h=400&fit=crop&auto=format&q=80"
+        },
+        {
+          "text": "Refreshing",
+          "hint": "清爽的",
+          "emoji": "😌",
+          "imageUrl": "https://images.unsplash.com/photo-1564419320461-6870880221ad?w=400&h=400&fit=crop&auto=format&q=80"
+        },
+        {
+          "text": "Too hot",
+          "hint": "太烫了",
+          "emoji": "🥵",
+          "imageUrl": "https://images.unsplash.com/photo-1541963463532-d68292c34b19?w=400&h=400&fit=crop&auto=format&q=80"
+        }
+      ]
+    },
+    {
+      "id": "sentences",
+      "label": "句型",
+      "labelEn": "Sentences",
+      "color": "green",
+      "items": [
+        {
+          "text": "I want to drink water.",
+          "hint": "我想喝水。",
+          "emoji": "🗣️",
+          "imageUrl": "https://images.unsplash.com/photo-1574743320219-553eb213f72d?w=400&h=400&fit=crop&auto=format&q=80"
+        },
+        {
+          "text": "May I have some water?",
+          "hint": "我可以要点水吗？",
+          "emoji": "🙏",
+          "imageUrl": "https://images.unsplash.com/photo-1554844416-3d53b7a1e5f5?w=400&h=400&fit=crop&auto=format&q=80"
+        }
+      ]
+    }
+  ]
+}

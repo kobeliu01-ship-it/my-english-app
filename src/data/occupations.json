@@ -1,0 +1,573 @@
+{
+  "level": {
+    "id": "dream-job-island",
+    "name": "梦幻职业岛",
+    "nameEn": "Dream Job Island",
+    "emoji": "🌟",
+    "color": "orange",
+    "bgFrom": "#f59e0b",
+    "bgTo": "#7c2d12",
+    "scenes": [
+      {
+        "id": "job-dentist",
+        "name": "小小牙医",
+        "nameEn": "Little Dentist",
+        "emoji": "🦷",
+        "soundEffect": "dental-drill",
+        "video": "/videos/job-dentist.mp4",
+        "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "tabs": [
+          {
+            "id": "words",
+            "label": "单词",
+            "labelEn": "Words",
+            "color": "blue",
+            "items": [
+              { "text": "Tooth",    "hint": "牙齿",   "emoji": "🦷", "imageUrl": "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Brush",    "hint": "牙刷",   "emoji": "🪥", "imageUrl": "https://images.unsplash.com/photo-1559591938-4b2f0b30d9cc?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Cavity",   "hint": "蛀牙",   "emoji": "😬", "imageUrl": "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Dentist",  "hint": "牙医",   "emoji": "👨‍⚕️", "imageUrl": "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=400&h=400&fit=crop&auto=format&q=80" }
+            ]
+          },
+          {
+            "id": "commands",
+            "label": "指令",
+            "labelEn": "Commands",
+            "color": "orange",
+            "items": [
+              { "text": "Open wide and say Ahhh!",     "hint": "张大嘴，说啊！",     "emoji": "👄", "imageUrl": "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "I'll check your teeth now!",  "hint": "我来检查你的牙齿了！","emoji": "🔍", "imageUrl": "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Brush every morning and night!", "hint": "早晚各刷一次牙！", "emoji": "🪥", "imageUrl": "https://images.unsplash.com/photo-1559591938-4b2f0b30d9cc?w=400&h=400&fit=crop&auto=format&q=80" }
+            ]
+          },
+          {
+            "id": "feelings",
+            "label": "感受",
+            "labelEn": "Feelings",
+            "color": "green",
+            "items": [
+              { "text": "Nervous",  "hint": "紧张",     "emoji": "😰", "imageUrl": "https://images.unsplash.com/photo-1554151228-14d9def656e4?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Brave",    "hint": "勇敢",     "emoji": "💪", "imageUrl": "https://images.unsplash.com/photo-1583499871880-de841f1c32f5?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Relieved", "hint": "如释重负", "emoji": "😌", "imageUrl": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400&h=400&fit=crop&auto=format&q=80" }
+            ]
+          },
+          {
+            "id": "sentences",
+            "label": "句型",
+            "labelEn": "Sentences",
+            "color": "purple",
+            "items": [
+              { "text": "I want to be a dentist.",            "hint": "我想成为一名牙医。",   "emoji": "🦷", "imageUrl": "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "My tooth hurts!",                   "hint": "我的牙好疼！",         "emoji": "😣", "imageUrl": "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "If you brush your teeth, they stay healthy!", "hint": "刷牙才能保持牙齿健康！","emoji": "😊","imageUrl": "https://images.unsplash.com/photo-1559591938-4b2f0b30d9cc?w=400&h=400&fit=crop&auto=format&q=80" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "job-chef",
+        "name": "超级厨师",
+        "nameEn": "Super Chef",
+        "emoji": "👨‍🍳",
+        "soundEffect": "sizzling-pan",
+        "video": "/videos/job-chef.mp4",
+        "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "tabs": [
+          {
+            "id": "words",
+            "label": "单词",
+            "labelEn": "Words",
+            "color": "blue",
+            "items": [
+              { "text": "Chef",        "hint": "厨师",   "emoji": "👨‍🍳", "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Recipe",      "hint": "食谱",   "emoji": "📖",   "imageUrl": "https://images.unsplash.com/photo-1466637574441-749b8f19452f?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Ingredients", "hint": "食材",   "emoji": "🥕",   "imageUrl": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Delicious",   "hint": "美味的", "emoji": "😋",   "imageUrl": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=400&fit=crop&auto=format&q=80" }
+            ]
+          },
+          {
+            "id": "commands",
+            "label": "指令",
+            "labelEn": "Commands",
+            "color": "orange",
+            "items": [
+              { "text": "A pinch of salt makes it perfect!", "hint": "一小撮盐让它完美！", "emoji": "🧂", "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Watch the heat — don't burn it!",  "hint": "控制火候——别烧焦！","emoji": "🔥", "imageUrl": "https://images.unsplash.com/photo-1547592180-85f173990554?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Taste before you plate!",         "hint": "装盘前先尝一口！",  "emoji": "🥄", "imageUrl": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&h=400&fit=crop&auto=format&q=80" }
+            ]
+          },
+          {
+            "id": "feelings",
+            "label": "感受",
+            "labelEn": "Feelings",
+            "color": "green",
+            "items": [
+              { "text": "Creative", "hint": "有创意的", "emoji": "🎨", "imageUrl": "https://images.unsplash.com/photo-1555099962-4199c345e5dd?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Proud",    "hint": "自豪",     "emoji": "🥲", "imageUrl": "https://images.unsplash.com/photo-1544025162-d76694265947?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Excited",  "hint": "兴奋",     "emoji": "🤩", "imageUrl": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=400&h=400&fit=crop&auto=format&q=80" }
+            ]
+          },
+          {
+            "id": "sentences",
+            "label": "句型",
+            "labelEn": "Sentences",
+            "color": "purple",
+            "items": [
+              { "text": "I am the best chef!",     "hint": "我是最棒的厨师！",             "emoji": "👨‍🍳", "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "This smells amazing!",   "hint": "这闻起来太香了！",             "emoji": "😍",   "imageUrl": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "If you mix eggs and flour, you get cake!", "hint": "把鸡蛋和面粉混合就能做蛋糕！","emoji": "🎂","imageUrl": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=400&fit=crop&auto=format&q=80" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "job-firefighter",
+        "name": "英勇消防员",
+        "nameEn": "Brave Firefighter",
+        "emoji": "🚒",
+        "soundEffect": "fire-siren",
+        "video": "/videos/job-firefighter.mp4",
+        "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "tabs": [
+          {
+            "id": "words",
+            "label": "单词",
+            "labelEn": "Words",
+            "color": "blue",
+            "items": [
+              { "text": "Fire",    "hint": "火",     "emoji": "🔥", "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Hose",    "hint": "水管",   "emoji": "🚒", "imageUrl": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Helmet",  "hint": "头盔",   "emoji": "⛑️", "imageUrl": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Rescue",  "hint": "救援",   "emoji": "🆘", "imageUrl": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=400&h=400&fit=crop&auto=format&q=80" }
+            ]
+          },
+          {
+            "id": "commands",
+            "label": "指令",
+            "labelEn": "Commands",
+            "color": "orange",
+            "items": [
+              { "text": "Hurry up! Connect the hose!", "hint": "快点！接上水管！",     "emoji": "🧯", "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Clear the area! Move back!",  "hint": "清场！后退！",         "emoji": "🚨", "imageUrl": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Everyone is safe now!",       "hint": "大家都安全了！",       "emoji": "✅", "imageUrl": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=400&fit=crop&auto=format&q=80" }
+            ]
+          },
+          {
+            "id": "feelings",
+            "label": "感受",
+            "labelEn": "Feelings",
+            "color": "green",
+            "items": [
+              { "text": "Brave",   "hint": "勇敢",     "emoji": "💪", "imageUrl": "https://images.unsplash.com/photo-1583499871880-de841f1c32f5?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Strong",  "hint": "强壮",     "emoji": "🏋️", "imageUrl": "https://images.unsplash.com/photo-1571019613576-2b22c76fd955?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Heroic",  "hint": "英雄般的", "emoji": "🦸", "imageUrl": "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?w=400&h=400&fit=crop&auto=format&q=80" }
+            ]
+          },
+          {
+            "id": "sentences",
+            "label": "句型",
+            "labelEn": "Sentences",
+            "color": "purple",
+            "items": [
+              { "text": "I am a brave firefighter!", "hint": "我是勇敢的消防员！",     "emoji": "🚒", "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "We save people every day.","hint": "我们每天都在救人。",     "emoji": "🆘", "imageUrl": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "If there is a fire, call for help!", "hint": "如果有火灾，要呼救！","emoji": "🔥","imageUrl": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=400&fit=crop&auto=format&q=80" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "job-police",
+        "name": "交通警察",
+        "nameEn": "Traffic Police",
+        "emoji": "👮",
+        "soundEffect": "police-whistle",
+        "video": "/videos/job-police.mp4",
+        "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "tabs": [
+          {
+            "id": "words",
+            "label": "单词",
+            "labelEn": "Words",
+            "color": "blue",
+            "items": [
+              { "text": "Police",  "hint": "警察",   "emoji": "👮", "imageUrl": "https://images.unsplash.com/photo-1543966888-7c1dc482a810?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Traffic", "hint": "交通",   "emoji": "🚦", "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Whistle", "hint": "哨子",   "emoji": "📣", "imageUrl": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Safe",    "hint": "安全的", "emoji": "🛡️", "imageUrl": "https://images.unsplash.com/photo-1511044568932-338ceba5ad33?w=400&h=400&fit=crop&auto=format&q=80" }
+            ]
+          },
+          {
+            "id": "commands",
+            "label": "指令",
+            "labelEn": "Commands",
+            "color": "orange",
+            "items": [
+              { "text": "Stop! Red light.",       "hint": "停！红灯。",       "emoji": "🛑", "imageUrl": "https://images.unsplash.com/photo-1543966888-7c1dc482a810?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Now go! Green light.",   "hint": "走！绿灯。",       "emoji": "✅", "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Please cross safely!",   "hint": "请安全过马路！",   "emoji": "🚶", "imageUrl": "https://images.unsplash.com/photo-1511044568932-338ceba5ad33?w=400&h=400&fit=crop&auto=format&q=80" }
+            ]
+          },
+          {
+            "id": "feelings",
+            "label": "感受",
+            "labelEn": "Feelings",
+            "color": "green",
+            "items": [
+              { "text": "Responsible", "hint": "负责任的", "emoji": "🤝", "imageUrl": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Confident",   "hint": "自信",     "emoji": "😎", "imageUrl": "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Proud",       "hint": "自豪",     "emoji": "🥲", "imageUrl": "https://images.unsplash.com/photo-1544025162-d76694265947?w=400&h=400&fit=crop&auto=format&q=80" }
+            ]
+          },
+          {
+            "id": "sentences",
+            "label": "句型",
+            "labelEn": "Sentences",
+            "color": "purple",
+            "items": [
+              { "text": "I keep the roads safe.",    "hint": "我守护道路安全。",             "emoji": "🛡️", "imageUrl": "https://images.unsplash.com/photo-1543966888-7c1dc482a810?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Red means stop!",           "hint": "红色代表停！",                 "emoji": "🚦", "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "If the light is green, you can go!", "hint": "绿灯才能走！",        "emoji": "✅", "imageUrl": "https://images.unsplash.com/photo-1511044568932-338ceba5ad33?w=400&h=400&fit=crop&auto=format&q=80" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "job-astronaut",
+        "name": "小小宇航员",
+        "nameEn": "Little Astronaut",
+        "emoji": "🚀",
+        "soundEffect": "rocket-launch",
+        "video": "/videos/job-astronaut.mp4",
+        "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "tabs": [
+          {
+            "id": "words",
+            "label": "单词",
+            "labelEn": "Words",
+            "color": "blue",
+            "items": [
+              { "text": "Rocket",    "hint": "火箭",   "emoji": "🚀", "imageUrl": "https://images.unsplash.com/photo-1457364887197-9150188c107b?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Orbit",     "hint": "轨道",   "emoji": "🌍", "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Spacesuit", "hint": "宇航服", "emoji": "👨‍🚀", "imageUrl": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Galaxy",    "hint": "星系",   "emoji": "🌌", "imageUrl": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=400&h=400&fit=crop&auto=format&q=80" }
+            ]
+          },
+          {
+            "id": "commands",
+            "label": "指令",
+            "labelEn": "Commands",
+            "color": "orange",
+            "items": [
+              { "text": "3, 2, 1... Blast off!",              "hint": "3、2、1……发射！",          "emoji": "🚀", "imageUrl": "https://images.unsplash.com/photo-1457364887197-9150188c107b?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Houston, all systems go!",           "hint": "休斯顿，所有系统就绪！",    "emoji": "📡", "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "I can see the whole Earth from here!", "hint": "我能从这里看到整个地球！", "emoji": "🌍", "imageUrl": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=400&h=400&fit=crop&auto=format&q=80" }
+            ]
+          },
+          {
+            "id": "feelings",
+            "label": "感受",
+            "labelEn": "Feelings",
+            "color": "green",
+            "items": [
+              { "text": "Amazed",     "hint": "惊叹",   "emoji": "🤩", "imageUrl": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Weightless", "hint": "失重的", "emoji": "🌊", "imageUrl": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Inspired",   "hint": "受到鼓舞","emoji": "💡","imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&h=400&fit=crop&auto=format&q=80" }
+            ]
+          },
+          {
+            "id": "sentences",
+            "label": "句型",
+            "labelEn": "Sentences",
+            "color": "purple",
+            "items": [
+              { "text": "I want to explore the universe!",       "hint": "我想探索宇宙！",                     "emoji": "🌌", "imageUrl": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "The Earth looks beautiful from space.", "hint": "从太空看地球太美了。",               "emoji": "🌍", "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "If I train hard, I can be an astronaut!", "hint": "如果努力训练，我就能成为宇航员！","emoji": "🚀", "imageUrl": "https://images.unsplash.com/photo-1457364887197-9150188c107b?w=400&h=400&fit=crop&auto=format&q=80" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "job-dancer",
+        "name": "芭蕾舞者",
+        "nameEn": "Ballet Dancer",
+        "emoji": "💃",
+        "soundEffect": "ballet-music",
+        "video": "/videos/job-dancer.mp4",
+        "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "tabs": [
+          {
+            "id": "words",
+            "label": "单词",
+            "labelEn": "Words",
+            "color": "blue",
+            "items": [
+              { "text": "Dance",    "hint": "舞蹈",   "emoji": "💃", "imageUrl": "https://images.unsplash.com/photo-1518834107812-67b0b7c58434?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Stage",    "hint": "舞台",   "emoji": "🎭", "imageUrl": "https://images.unsplash.com/photo-1547153760-18fc86324498?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Graceful", "hint": "优雅的", "emoji": "🩰", "imageUrl": "https://images.unsplash.com/photo-1508700929628-666bc8bd84ea?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Music",    "hint": "音乐",   "emoji": "🎵", "imageUrl": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=400&h=400&fit=crop&auto=format&q=80" }
+            ]
+          },
+          {
+            "id": "commands",
+            "label": "指令",
+            "labelEn": "Commands",
+            "color": "orange",
+            "items": [
+              { "text": "Point your toes, feel the music!",  "hint": "绷紧脚尖，感受音乐！", "emoji": "🩰", "imageUrl": "https://images.unsplash.com/photo-1508700929628-666bc8bd84ea?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Spin gracefully, arms out wide!",   "hint": "优雅地旋转，双臂展开！","emoji": "🌀", "imageUrl": "https://images.unsplash.com/photo-1518834107812-67b0b7c58434?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Take a bow — you were amazing!",    "hint": "鞠躬谢幕——你太棒了！",  "emoji": "🎭", "imageUrl": "https://images.unsplash.com/photo-1547153760-18fc86324498?w=400&h=400&fit=crop&auto=format&q=80" }
+            ]
+          },
+          {
+            "id": "feelings",
+            "label": "感受",
+            "labelEn": "Feelings",
+            "color": "green",
+            "items": [
+              { "text": "Graceful",  "hint": "优雅",   "emoji": "🦢", "imageUrl": "https://images.unsplash.com/photo-1508700929628-666bc8bd84ea?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Joyful",    "hint": "喜悦",   "emoji": "😄", "imageUrl": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Confident", "hint": "自信",   "emoji": "😎", "imageUrl": "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?w=400&h=400&fit=crop&auto=format&q=80" }
+            ]
+          },
+          {
+            "id": "sentences",
+            "label": "句型",
+            "labelEn": "Sentences",
+            "color": "purple",
+            "items": [
+              { "text": "I love dancing on stage!",            "hint": "我喜欢在舞台上跳舞！",       "emoji": "🎭", "imageUrl": "https://images.unsplash.com/photo-1547153760-18fc86324498?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Practice makes perfect.",            "hint": "熟能生巧。",                 "emoji": "💃", "imageUrl": "https://images.unsplash.com/photo-1518834107812-67b0b7c58434?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "If I practice every day, I will get better!", "hint": "每天练习，我就会越来越好！","emoji": "⭐","imageUrl": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=400&h=400&fit=crop&auto=format&q=80" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "job-architect",
+        "name": "小小建筑师",
+        "nameEn": "Little Architect",
+        "emoji": "🏗️",
+        "soundEffect": "pencil-sketching",
+        "video": "/videos/job-architect.mp4",
+        "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "tabs": [
+          {
+            "id": "words",
+            "label": "单词",
+            "labelEn": "Words",
+            "color": "blue",
+            "items": [
+              { "text": "Blueprint", "hint": "蓝图",   "emoji": "📐", "imageUrl": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Building",  "hint": "建筑",   "emoji": "🏛️", "imageUrl": "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Design",    "hint": "设计",   "emoji": "✏️", "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Strong",    "hint": "坚固的", "emoji": "💪", "imageUrl": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=400&h=400&fit=crop&auto=format&q=80" }
+            ]
+          },
+          {
+            "id": "commands",
+            "label": "指令",
+            "labelEn": "Commands",
+            "color": "orange",
+            "items": [
+              { "text": "Measure twice, build once!",      "hint": "量两次，建一次！",     "emoji": "📏", "imageUrl": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "This column needs to be taller!", "hint": "这根柱子要更高！",     "emoji": "🏗️", "imageUrl": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "The design is approved — let's build!", "hint": "设计通过——开始建造！","emoji": "✅","imageUrl": "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=400&h=400&fit=crop&auto=format&q=80" }
+            ]
+          },
+          {
+            "id": "feelings",
+            "label": "感受",
+            "labelEn": "Feelings",
+            "color": "green",
+            "items": [
+              { "text": "Creative",    "hint": "有创意的",   "emoji": "🎨", "imageUrl": "https://images.unsplash.com/photo-1555099962-4199c345e5dd?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Determined",  "hint": "坚定的",     "emoji": "💪", "imageUrl": "https://images.unsplash.com/photo-1571019613576-2b22c76fd955?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Imaginative", "hint": "富有想象力的","emoji": "💭", "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=400&fit=crop&auto=format&q=80" }
+            ]
+          },
+          {
+            "id": "sentences",
+            "label": "句型",
+            "labelEn": "Sentences",
+            "color": "purple",
+            "items": [
+              { "text": "I design amazing buildings!",          "hint": "我设计了令人惊叹的建筑！", "emoji": "🏛️", "imageUrl": "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "A good plan makes a great building.", "hint": "好计划成就好建筑。",       "emoji": "📐", "imageUrl": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "If the foundation is strong, the building will last.", "hint": "地基牢固，建筑才能长久。","emoji": "💪","imageUrl": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=400&h=400&fit=crop&auto=format&q=80" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "job-vet",
+        "name": "宠物医生",
+        "nameEn": "Pet Doctor",
+        "emoji": "🐾",
+        "soundEffect": "animal-sounds",
+        "video": "/videos/job-vet.mp4",
+        "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "tabs": [
+          {
+            "id": "words",
+            "label": "单词",
+            "labelEn": "Words",
+            "color": "blue",
+            "items": [
+              { "text": "Vet",      "hint": "兽医",   "emoji": "👩‍⚕️", "imageUrl": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Paw",      "hint": "爪子",   "emoji": "🐾",   "imageUrl": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Medicine", "hint": "药",     "emoji": "💊",   "imageUrl": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Healthy",  "hint": "健康的", "emoji": "💚",   "imageUrl": "https://images.unsplash.com/photo-1450778869180-41d0601e046e?w=400&h=400&fit=crop&auto=format&q=80" }
+            ]
+          },
+          {
+            "id": "commands",
+            "label": "指令",
+            "labelEn": "Commands",
+            "color": "orange",
+            "items": [
+              { "text": "Hold still, little one — I'll be gentle!", "hint": "乖，别动——我会轻轻的！","emoji": "🐶","imageUrl": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Take your medicine and you'll be better!", "hint": "把药吃了就会好！",       "emoji": "💊","imageUrl": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "You're all healthy — great news!",         "hint": "你完全健康——好消息！",  "emoji": "💚","imageUrl": "https://images.unsplash.com/photo-1450778869180-41d0601e046e?w=400&h=400&fit=crop&auto=format&q=80" }
+            ]
+          },
+          {
+            "id": "feelings",
+            "label": "感受",
+            "labelEn": "Feelings",
+            "color": "green",
+            "items": [
+              { "text": "Caring",  "hint": "关爱",   "emoji": "💗", "imageUrl": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Gentle",  "hint": "温柔",   "emoji": "🤲", "imageUrl": "https://images.unsplash.com/photo-1450778869180-41d0601e046e?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Happy",   "hint": "高兴",   "emoji": "😊", "imageUrl": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400&h=400&fit=crop&auto=format&q=80" }
+            ]
+          },
+          {
+            "id": "sentences",
+            "label": "句型",
+            "labelEn": "Sentences",
+            "color": "purple",
+            "items": [
+              { "text": "I take care of sick animals.",       "hint": "我照顾生病的动物。",       "emoji": "🐾", "imageUrl": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Animals need love and care.",       "hint": "动物需要爱和照顾。",       "emoji": "💗", "imageUrl": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "If your pet is sick, see a vet!",  "hint": "如果宠物生病了，去看兽医！","emoji": "🏥", "imageUrl": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400&h=400&fit=crop&auto=format&q=80" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "job-pilot",
+        "name": "小小飞行员",
+        "nameEn": "Little Pilot",
+        "emoji": "✈️",
+        "soundEffect": "airplane-engine",
+        "video": "/videos/job-pilot.mp4",
+        "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "tabs": [
+          {
+            "id": "words",
+            "label": "单词",
+            "labelEn": "Words",
+            "color": "blue",
+            "items": [
+              { "text": "Pilot",    "hint": "飞行员", "emoji": "🧑‍✈️", "imageUrl": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Cockpit",  "hint": "驾驶舱", "emoji": "🛩️",   "imageUrl": "https://images.unsplash.com/photo-1559628129-67cf63b72248?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Altitude", "hint": "飞行高度","emoji": "📏",   "imageUrl": "https://images.unsplash.com/photo-1483450388369-9ed95738483c?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Landing",  "hint": "降落",   "emoji": "🛬",   "imageUrl": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=400&h=400&fit=crop&auto=format&q=80" }
+            ]
+          },
+          {
+            "id": "commands",
+            "label": "指令",
+            "labelEn": "Commands",
+            "color": "orange",
+            "items": [
+              { "text": "Fasten your seatbelts, please!", "hint": "请系好安全带！",   "emoji": "🔒", "imageUrl": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Prepare for takeoff — engines on!", "hint": "准备起飞——引擎启动！","emoji": "✈️","imageUrl": "https://images.unsplash.com/photo-1559628129-67cf63b72248?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "We are now landing. Welcome aboard!", "hint": "我们正在降落，欢迎登机！","emoji": "🛬","imageUrl": "https://images.unsplash.com/photo-1483450388369-9ed95738483c?w=400&h=400&fit=crop&auto=format&q=80" }
+            ]
+          },
+          {
+            "id": "feelings",
+            "label": "感受",
+            "labelEn": "Feelings",
+            "color": "green",
+            "items": [
+              { "text": "Free",        "hint": "自由",   "emoji": "🕊️", "imageUrl": "https://images.unsplash.com/photo-1483450388369-9ed95738483c?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Focused",     "hint": "专注",   "emoji": "🎯", "imageUrl": "https://images.unsplash.com/photo-1559628129-67cf63b72248?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Adventurous", "hint": "爱冒险的","emoji": "🌍","imageUrl": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=400&h=400&fit=crop&auto=format&q=80" }
+            ]
+          },
+          {
+            "id": "sentences",
+            "label": "句型",
+            "labelEn": "Sentences",
+            "color": "purple",
+            "items": [
+              { "text": "I fly people all over the world!",     "hint": "我带着旅客飞遍世界！",     "emoji": "✈️", "imageUrl": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "The sky is so beautiful!",            "hint": "天空太美了！",             "emoji": "🌤️", "imageUrl": "https://images.unsplash.com/photo-1483450388369-9ed95738483c?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "If the weather is good, we take off!", "hint": "天气好的话，我们就起飞！", "emoji": "🛫", "imageUrl": "https://images.unsplash.com/photo-1559628129-67cf63b72248?w=400&h=400&fit=crop&auto=format&q=80" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "job-farmer",
+        "name": "小小农场主",
+        "nameEn": "Little Farmer",
+        "emoji": "🌾",
+        "soundEffect": "rooster-crow",
+        "video": "/videos/job-farmer.mp4",
+        "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "tabs": [
+          {
+            "id": "words",
+            "label": "单词",
+            "labelEn": "Words",
+            "color": "blue",
+            "items": [
+              { "text": "Farm",    "hint": "农场",   "emoji": "🏡", "imageUrl": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Harvest", "hint": "收获",   "emoji": "🌾", "imageUrl": "https://images.unsplash.com/photo-1500076656116-558758965975?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Seeds",   "hint": "种子",   "emoji": "🌱", "imageUrl": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Tractor", "hint": "拖拉机", "emoji": "🚜", "imageUrl": "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=400&h=400&fit=crop&auto=format&q=80" }
+            ]
+          },
+          {
+            "id": "commands",
+            "label": "指令",
+            "labelEn": "Commands",
+            "color": "orange",
+            "items": [
+              { "text": "Plant the seeds deep in the soil!",   "hint": "把种子深深种入土中！", "emoji": "🌱", "imageUrl": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Water the crops every morning!",     "hint": "每天早上给庄稼浇水！", "emoji": "💧", "imageUrl": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Harvest time — the fields are golden!", "hint": "丰收时刻——田野一片金黄！","emoji": "🌾","imageUrl": "https://images.unsplash.com/photo-1500076656116-558758965975?w=400&h=400&fit=crop&auto=format&q=80" }
+            ]
+          },
+          {
+            "id": "feelings",
+            "label": "感受",
+            "labelEn": "Feelings",
+            "color": "green",
+            "items": [
+              { "text": "Hardworking", "hint": "勤劳",   "emoji": "💪", "imageUrl": "https://images.unsplash.com/photo-1571019613576-2b22c76fd955?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Grateful",    "hint": "感恩",   "emoji": "🙏", "imageUrl": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Satisfied",   "hint": "满足",   "emoji": "😌", "imageUrl": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=400&h=400&fit=crop&auto=format&q=80" }
+            ]
+          },
+          {
+            "id": "sentences",
+            "label": "句型",
+            "labelEn": "Sentences",
+            "color": "purple",
+            "items": [
+              { "text": "I grow food for everyone!",          "hint": "我为大家种粮食！",             "emoji": "🌾", "imageUrl": "https://images.unsplash.com/photo-1500076656116-558758965975?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "Fresh vegetables are yummy!",       "hint": "新鲜蔬菜真好吃！",             "emoji": "🥦", "imageUrl": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&h=400&fit=crop&auto=format&q=80" },
+              { "text": "If you water the seeds, they will grow!", "hint": "浇水了，种子就会发芽！","emoji": "🌱","imageUrl": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400&h=400&fit=crop&auto=format&q=80" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

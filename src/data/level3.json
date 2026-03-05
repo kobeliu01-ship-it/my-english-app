@@ -1,0 +1,824 @@
+{
+  "scenes": [
+    {
+      "id": "supermarket",
+      "name": "超市",
+      "nameEn": "Supermarket",
+      "emoji": "🛒",
+      "video": "/videos/supermarket.mp4",
+      "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+      "tabs": [
+        {
+          "id": "words", "label": "单词", "labelEn": "Words", "color": "orange",
+          "items": [
+            { "text": "Cart",     "hint": "购物车", "emoji": "🛒", "imageUrl": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Shelf",    "hint": "货架",   "emoji": "🗄️", "imageUrl": "https://images.unsplash.com/photo-1604719312566-8912e9227c6a?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Cashier",  "hint": "收银员", "emoji": "💳", "imageUrl": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Receipt",  "hint": "收据",   "emoji": "🧾", "imageUrl": "https://images.unsplash.com/photo-1572782252655-9c8771392601?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "commands", "label": "指令", "labelEn": "Commands", "color": "blue",
+          "items": [
+            { "text": "Pick up the apple",    "hint": "拿起苹果",     "emoji": "🍎", "imageUrl": "https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Put it in the cart",   "hint": "放进购物车",   "emoji": "🛒", "imageUrl": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Go to the checkout",   "hint": "去结账",       "emoji": "💰", "imageUrl": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "feelings", "label": "感受", "labelEn": "Feelings", "color": "purple",
+          "items": [
+            { "text": "Hungry",   "hint": "饿的",   "emoji": "😋", "imageUrl": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Excited",  "hint": "兴奋的", "emoji": "😄", "imageUrl": "https://images.unsplash.com/photo-1489710437720-ebb67ec84dd2?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "sentences", "label": "句型", "labelEn": "Sentences", "color": "green",
+          "items": [
+            { "text": "I need to buy some fruit",      "hint": "我需要买一些水果", "emoji": "🍓", "imageUrl": "https://images.unsplash.com/photo-1519996529931-28324d5a630e?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "How much does this cost?",      "hint": "这个多少钱？",     "emoji": "💲", "imageUrl": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "park",
+      "name": "公园",
+      "nameEn": "Park",
+      "emoji": "🌳",
+      "video": "/videos/park.mp4",
+      "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+      "tabs": [
+        {
+          "id": "words", "label": "单词", "labelEn": "Words", "color": "orange",
+          "items": [
+            { "text": "Bench",    "hint": "长椅",   "emoji": "🪑", "imageUrl": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Fountain", "hint": "喷泉",   "emoji": "⛲", "imageUrl": "https://images.unsplash.com/photo-1582407947304-fd86f028f716?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Path",     "hint": "小路",   "emoji": "🛤️", "imageUrl": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Flower",   "hint": "花",     "emoji": "🌸", "imageUrl": "https://images.unsplash.com/photo-1490750967868-88df5691cc0e?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "commands", "label": "指令", "labelEn": "Commands", "color": "blue",
+          "items": [
+            { "text": "Sit on the bench",     "hint": "坐在长椅上",   "emoji": "🪑", "imageUrl": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Walk along the path",  "hint": "沿着小路走",   "emoji": "🚶", "imageUrl": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Feed the ducks",       "hint": "喂鸭子",       "emoji": "🦆", "imageUrl": "https://images.unsplash.com/photo-1444464666168-49d633b86797?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "feelings", "label": "感受", "labelEn": "Feelings", "color": "purple",
+          "items": [
+            { "text": "Happy",   "hint": "开心的",  "emoji": "😊", "imageUrl": "https://images.unsplash.com/photo-1489710437720-ebb67ec84dd2?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Relaxed", "hint": "放松的",  "emoji": "😌", "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "sentences", "label": "句型", "labelEn": "Sentences", "color": "green",
+          "items": [
+            { "text": "The park is beautiful today",        "hint": "今天公园很美",         "emoji": "🌷", "imageUrl": "https://images.unsplash.com/photo-1490750967868-88df5691cc0e?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Let's take a walk in the park",     "hint": "我们去公园散步吧",     "emoji": "🌳", "imageUrl": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "library",
+      "name": "图书馆",
+      "nameEn": "Library",
+      "emoji": "📚",
+      "video": "/videos/library.mp4",
+      "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+      "tabs": [
+        {
+          "id": "words", "label": "单词", "labelEn": "Words", "color": "orange",
+          "items": [
+            { "text": "Book",       "hint": "书",       "emoji": "📖", "imageUrl": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Librarian",  "hint": "管理员",   "emoji": "👩‍💼", "imageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Catalog",    "hint": "目录",     "emoji": "📋", "imageUrl": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Quiet",      "hint": "安静的",   "emoji": "🤫", "imageUrl": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "commands", "label": "指令", "labelEn": "Commands", "color": "blue",
+          "items": [
+            { "text": "Find the book you want",       "hint": "找到你想要的书",   "emoji": "🔍", "imageUrl": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Return the book on time",      "hint": "按时还书",         "emoji": "📅", "imageUrl": "https://images.unsplash.com/photo-1472173148041-00294f0814a2?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Keep quiet in the library",   "hint": "保持安静",         "emoji": "🤫", "imageUrl": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "feelings", "label": "感受", "labelEn": "Feelings", "color": "purple",
+          "items": [
+            { "text": "Curious",  "hint": "好奇的",   "emoji": "🧐", "imageUrl": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Focused",  "hint": "专注的",   "emoji": "🎯", "imageUrl": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "sentences", "label": "句型", "labelEn": "Sentences", "color": "green",
+          "items": [
+            { "text": "I want to borrow this book",          "hint": "我想借这本书",         "emoji": "📚", "imageUrl": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Please be quiet in the library",      "hint": "请保持安静",           "emoji": "🤫", "imageUrl": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zoo",
+      "name": "动物园",
+      "nameEn": "Zoo",
+      "emoji": "🦁",
+      "video": "/videos/zoo.mp4",
+      "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+      "tabs": [
+        {
+          "id": "words", "label": "单词", "labelEn": "Words", "color": "orange",
+          "items": [
+            { "text": "Lion",       "hint": "狮子",     "emoji": "🦁", "imageUrl": "https://images.unsplash.com/photo-1534188753412-3e26d0d618d6?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Elephant",   "hint": "大象",     "emoji": "🐘", "imageUrl": "https://images.unsplash.com/photo-1557050543-4d5f4e07ef46?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Cage",       "hint": "笼子",     "emoji": "🔒", "imageUrl": "https://images.unsplash.com/photo-1517849845537-4d257902454a?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Zookeeper",  "hint": "饲养员",   "emoji": "👨‍🔬", "imageUrl": "https://images.unsplash.com/photo-1474511320723-9a56873867b5?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "commands", "label": "指令", "labelEn": "Commands", "color": "blue",
+          "items": [
+            { "text": "Look at the elephants",    "hint": "看大象",           "emoji": "🐘", "imageUrl": "https://images.unsplash.com/photo-1557050543-4d5f4e07ef46?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Don't feed the animals",   "hint": "不要喂动物",       "emoji": "🚫", "imageUrl": "https://images.unsplash.com/photo-1474511320723-9a56873867b5?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Take a photo here",        "hint": "在这里拍照",       "emoji": "📷", "imageUrl": "https://images.unsplash.com/photo-1517849845537-4d257902454a?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "feelings", "label": "感受", "labelEn": "Feelings", "color": "purple",
+          "items": [
+            { "text": "Amazed", "hint": "惊叹的", "emoji": "😮", "imageUrl": "https://images.unsplash.com/photo-1534188753412-3e26d0d618d6?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Scared", "hint": "害怕的", "emoji": "😨", "imageUrl": "https://images.unsplash.com/photo-1517849845537-4d257902454a?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "sentences", "label": "句型", "labelEn": "Sentences", "color": "green",
+          "items": [
+            { "text": "The lion is very strong",   "hint": "狮子非常强壮",   "emoji": "🦁", "imageUrl": "https://images.unsplash.com/photo-1534188753412-3e26d0d618d6?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "I love watching the pandas","hint": "我喜欢看熊猫",   "emoji": "🐼", "imageUrl": "https://images.unsplash.com/photo-1527118732049-c88155f2107c?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hospital",
+      "name": "医院",
+      "nameEn": "Hospital",
+      "emoji": "🏥",
+      "video": "/videos/hospital.mp4",
+      "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+      "tabs": [
+        {
+          "id": "words", "label": "单词", "labelEn": "Words", "color": "orange",
+          "items": [
+            { "text": "Doctor",       "hint": "医生",   "emoji": "👨‍⚕️", "imageUrl": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Nurse",        "hint": "护士",   "emoji": "👩‍⚕️", "imageUrl": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Medicine",     "hint": "药",     "emoji": "💊", "imageUrl": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Waiting room", "hint": "候诊室", "emoji": "🪑", "imageUrl": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "commands", "label": "指令", "labelEn": "Commands", "color": "blue",
+          "items": [
+            { "text": "Take your medicine",       "hint": "吃你的药",         "emoji": "💊", "imageUrl": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Wait in line please",      "hint": "请排队等候",       "emoji": "🚶", "imageUrl": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Show me where it hurts",   "hint": "告诉我哪里疼",     "emoji": "🤕", "imageUrl": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "feelings", "label": "感受", "labelEn": "Feelings", "color": "purple",
+          "items": [
+            { "text": "Sick",    "hint": "生病的",  "emoji": "🤒", "imageUrl": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Worried", "hint": "担心的",  "emoji": "😟", "imageUrl": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "sentences", "label": "句型", "labelEn": "Sentences", "color": "green",
+          "items": [
+            { "text": "I have a headache",       "hint": "我头疼",           "emoji": "🤕", "imageUrl": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "I need to see a doctor",  "hint": "我需要看医生",     "emoji": "🏥", "imageUrl": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "restaurant",
+      "name": "餐厅",
+      "nameEn": "Restaurant",
+      "emoji": "🍽️",
+      "video": "/videos/restaurant.mp4",
+      "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+      "tabs": [
+        {
+          "id": "words", "label": "单词", "labelEn": "Words", "color": "orange",
+          "items": [
+            { "text": "Menu",   "hint": "菜单",   "emoji": "📋", "imageUrl": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Waiter", "hint": "服务员", "emoji": "🧑‍🍳", "imageUrl": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Dish",   "hint": "菜肴",   "emoji": "🍲", "imageUrl": "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Bill",   "hint": "账单",   "emoji": "🧾", "imageUrl": "https://images.unsplash.com/photo-1572782252655-9c8771392601?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "commands", "label": "指令", "labelEn": "Commands", "color": "blue",
+          "items": [
+            { "text": "Order your food",        "hint": "点你的食物",   "emoji": "📋", "imageUrl": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Ask for the bill",       "hint": "要账单",       "emoji": "🧾", "imageUrl": "https://images.unsplash.com/photo-1572782252655-9c8771392601?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Try the special today",  "hint": "尝今日特色菜", "emoji": "🌟", "imageUrl": "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "feelings", "label": "感受", "labelEn": "Feelings", "color": "purple",
+          "items": [
+            { "text": "Delighted", "hint": "高兴的",  "emoji": "😄", "imageUrl": "https://images.unsplash.com/photo-1489710437720-ebb67ec84dd2?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Full",      "hint": "吃饱的",  "emoji": "😊", "imageUrl": "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "sentences", "label": "句型", "labelEn": "Sentences", "color": "green",
+          "items": [
+            { "text": "Can I see the menu please?",    "hint": "我可以看菜单吗？",   "emoji": "📋", "imageUrl": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "This food is delicious",        "hint": "这食物太美味了",     "emoji": "😋", "imageUrl": "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "school",
+      "name": "学校",
+      "nameEn": "School",
+      "emoji": "🏫",
+      "video": "/videos/school.mp4",
+      "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+      "tabs": [
+        {
+          "id": "words", "label": "单词", "labelEn": "Words", "color": "orange",
+          "items": [
+            { "text": "Classroom",  "hint": "教室",   "emoji": "🏫", "imageUrl": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Teacher",    "hint": "老师",   "emoji": "👩‍🏫", "imageUrl": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Blackboard", "hint": "黑板",   "emoji": "🖊️", "imageUrl": "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Homework",   "hint": "作业",   "emoji": "📝", "imageUrl": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "commands", "label": "指令", "labelEn": "Commands", "color": "blue",
+          "items": [
+            { "text": "Open your textbook",   "hint": "打开你的课本", "emoji": "📖", "imageUrl": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Raise your hand",      "hint": "举起你的手",   "emoji": "✋", "imageUrl": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Listen to the teacher","hint": "听老师讲课",   "emoji": "👂", "imageUrl": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "feelings", "label": "感受", "labelEn": "Feelings", "color": "purple",
+          "items": [
+            { "text": "Eager", "hint": "渴望的", "emoji": "🙋", "imageUrl": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Proud", "hint": "骄傲的", "emoji": "😤", "imageUrl": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "sentences", "label": "句型", "labelEn": "Sentences", "color": "green",
+          "items": [
+            { "text": "I like going to school",       "hint": "我喜欢上学",           "emoji": "🏫", "imageUrl": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "I finished my homework",       "hint": "我完成了作业",         "emoji": "✅", "imageUrl": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bank",
+      "name": "银行",
+      "nameEn": "Bank",
+      "emoji": "🏦",
+      "video": "/videos/bank.mp4",
+      "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+      "tabs": [
+        {
+          "id": "words", "label": "单词", "labelEn": "Words", "color": "orange",
+          "items": [
+            { "text": "Money",   "hint": "钱",       "emoji": "💰", "imageUrl": "https://images.unsplash.com/photo-1554672723-d42a16e533db?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Teller",  "hint": "柜员",     "emoji": "👩‍💼", "imageUrl": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Account", "hint": "账户",     "emoji": "📊", "imageUrl": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "ATM",     "hint": "取款机",   "emoji": "🏧", "imageUrl": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "commands", "label": "指令", "labelEn": "Commands", "color": "blue",
+          "items": [
+            { "text": "Take a number and wait",   "hint": "取号等待",   "emoji": "🎫", "imageUrl": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Fill in the form",         "hint": "填写表格",   "emoji": "📝", "imageUrl": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Insert your card",         "hint": "插入你的卡", "emoji": "💳", "imageUrl": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "feelings", "label": "感受", "labelEn": "Feelings", "color": "purple",
+          "items": [
+            { "text": "Patient", "hint": "有耐心的", "emoji": "😌", "imageUrl": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Nervous", "hint": "紧张的",   "emoji": "😰", "imageUrl": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "sentences", "label": "句型", "labelEn": "Sentences", "color": "green",
+          "items": [
+            { "text": "I need to deposit some money",  "hint": "我需要存一些钱",       "emoji": "💰", "imageUrl": "https://images.unsplash.com/photo-1554672723-d42a16e533db?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Can I open a new account?",     "hint": "我可以开新账户吗？",   "emoji": "🏦", "imageUrl": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "post-office",
+      "name": "邮局",
+      "nameEn": "Post Office",
+      "emoji": "📮",
+      "video": "/videos/post-office.mp4",
+      "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+      "tabs": [
+        {
+          "id": "words", "label": "单词", "labelEn": "Words", "color": "orange",
+          "items": [
+            { "text": "Letter",  "hint": "信",   "emoji": "✉️", "imageUrl": "https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Package", "hint": "包裹", "emoji": "📦", "imageUrl": "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Stamp",   "hint": "邮票", "emoji": "🏷️", "imageUrl": "https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Mailbox", "hint": "邮箱", "emoji": "📬", "imageUrl": "https://images.unsplash.com/photo-1587174145788-bb3e35b5e9e2?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "commands", "label": "指令", "labelEn": "Commands", "color": "blue",
+          "items": [
+            { "text": "Put the stamp on the letter",  "hint": "把邮票贴在信上",   "emoji": "✉️", "imageUrl": "https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Write the address clearly",    "hint": "清楚地写地址",     "emoji": "✍️", "imageUrl": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Send the package by express",  "hint": "用快递寄包裹",     "emoji": "📦", "imageUrl": "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "feelings", "label": "感受", "labelEn": "Feelings", "color": "purple",
+          "items": [
+            { "text": "Helpful",   "hint": "乐于助人的", "emoji": "🤝", "imageUrl": "https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Surprised", "hint": "惊讶的",     "emoji": "😲", "imageUrl": "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "sentences", "label": "句型", "labelEn": "Sentences", "color": "green",
+          "items": [
+            { "text": "I want to send this letter",           "hint": "我想寄这封信",         "emoji": "✉️", "imageUrl": "https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "How long will it take to arrive?",     "hint": "需要多长时间到达？",   "emoji": "⏱️", "imageUrl": "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "train-station",
+      "name": "火车站",
+      "nameEn": "Train Station",
+      "emoji": "🚂",
+      "video": "/videos/train-station.mp4",
+      "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+      "tabs": [
+        {
+          "id": "words", "label": "单词", "labelEn": "Words", "color": "orange",
+          "items": [
+            { "text": "Ticket",    "hint": "票",     "emoji": "🎫", "imageUrl": "https://images.unsplash.com/photo-1534430480872-3498386e7856?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Platform",  "hint": "站台",   "emoji": "🚉", "imageUrl": "https://images.unsplash.com/photo-1474487548417-781cb6d646b3?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Luggage",   "hint": "行李",   "emoji": "🧳", "imageUrl": "https://images.unsplash.com/photo-1553913861-c0fddf2619ee?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Departure", "hint": "出发",   "emoji": "🚀", "imageUrl": "https://images.unsplash.com/photo-1534430480872-3498386e7856?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "commands", "label": "指令", "labelEn": "Commands", "color": "blue",
+          "items": [
+            { "text": "Check your ticket",        "hint": "检查你的票",   "emoji": "🎫", "imageUrl": "https://images.unsplash.com/photo-1534430480872-3498386e7856?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Go to platform three",     "hint": "去三号站台",   "emoji": "🚉", "imageUrl": "https://images.unsplash.com/photo-1474487548417-781cb6d646b3?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Don't miss the train",     "hint": "不要错过火车", "emoji": "🚂", "imageUrl": "https://images.unsplash.com/photo-1474487548417-781cb6d646b3?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "feelings", "label": "感受", "labelEn": "Feelings", "color": "purple",
+          "items": [
+            { "text": "Rushed",  "hint": "匆忙的", "emoji": "🏃", "imageUrl": "https://images.unsplash.com/photo-1474487548417-781cb6d646b3?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Excited", "hint": "兴奋的", "emoji": "😄", "imageUrl": "https://images.unsplash.com/photo-1489710437720-ebb67ec84dd2?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "sentences", "label": "句型", "labelEn": "Sentences", "color": "green",
+          "items": [
+            { "text": "The train leaves at eight",         "hint": "火车八点出发",         "emoji": "🚂", "imageUrl": "https://images.unsplash.com/photo-1474487548417-781cb6d646b3?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Which platform is this train on?",  "hint": "这列火车在几号站台？", "emoji": "🚉", "imageUrl": "https://images.unsplash.com/photo-1534430480872-3498386e7856?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "airport",
+      "name": "机场",
+      "nameEn": "Airport",
+      "emoji": "✈️",
+      "video": "/videos/airport.mp4",
+      "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+      "tabs": [
+        {
+          "id": "words", "label": "单词", "labelEn": "Words", "color": "orange",
+          "items": [
+            { "text": "Passport",      "hint": "护照",   "emoji": "🛂", "imageUrl": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Boarding pass", "hint": "登机牌", "emoji": "🎫", "imageUrl": "https://images.unsplash.com/photo-1534430480872-3498386e7856?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Gate",          "hint": "登机口", "emoji": "🚪", "imageUrl": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Customs",       "hint": "海关",   "emoji": "🛃", "imageUrl": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "commands", "label": "指令", "labelEn": "Commands", "color": "blue",
+          "items": [
+            { "text": "Show your passport",   "hint": "出示你的护照", "emoji": "🛂", "imageUrl": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Go through security",  "hint": "通过安检",     "emoji": "🔍", "imageUrl": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Board the plane",      "hint": "登机",         "emoji": "✈️", "imageUrl": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "feelings", "label": "感受", "labelEn": "Feelings", "color": "purple",
+          "items": [
+            { "text": "Adventurous", "hint": "爱冒险的", "emoji": "🌍", "imageUrl": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Tired",       "hint": "疲惫的",   "emoji": "😴", "imageUrl": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "sentences", "label": "句型", "labelEn": "Sentences", "color": "green",
+          "items": [
+            { "text": "My flight is at noon",              "hint": "我的航班在中午",   "emoji": "✈️", "imageUrl": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "I need to check in my luggage",     "hint": "我需要托运行李",   "emoji": "🧳", "imageUrl": "https://images.unsplash.com/photo-1553913861-c0fddf2619ee?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "swimming-pool",
+      "name": "游泳池",
+      "nameEn": "Swimming Pool",
+      "emoji": "🏊",
+      "video": "/videos/swimming-pool.mp4",
+      "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+      "tabs": [
+        {
+          "id": "words", "label": "单词", "labelEn": "Words", "color": "orange",
+          "items": [
+            { "text": "Swimsuit",  "hint": "泳衣",   "emoji": "👙", "imageUrl": "https://images.unsplash.com/photo-1560090995-01632a28895b?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Goggles",   "hint": "泳镜",   "emoji": "🥽", "imageUrl": "https://images.unsplash.com/photo-1560090995-01632a28895b?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Lane",      "hint": "泳道",   "emoji": "🏊", "imageUrl": "https://images.unsplash.com/photo-1516912481808-3406841bd33c?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Lifeguard", "hint": "救生员", "emoji": "🛟", "imageUrl": "https://images.unsplash.com/photo-1530549387789-4c1017266635?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "commands", "label": "指令", "labelEn": "Commands", "color": "blue",
+          "items": [
+            { "text": "Put on your goggles",      "hint": "戴上你的泳镜",     "emoji": "🥽", "imageUrl": "https://images.unsplash.com/photo-1560090995-01632a28895b?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Don't run by the pool",    "hint": "不要在泳池边跑",   "emoji": "🚫", "imageUrl": "https://images.unsplash.com/photo-1516912481808-3406841bd33c?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Kick your legs",           "hint": "踢你的腿",         "emoji": "🦵", "imageUrl": "https://images.unsplash.com/photo-1530549387789-4c1017266635?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "feelings", "label": "感受", "labelEn": "Feelings", "color": "purple",
+          "items": [
+            { "text": "Refreshed", "hint": "神清气爽", "emoji": "😎", "imageUrl": "https://images.unsplash.com/photo-1516912481808-3406841bd33c?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Brave",     "hint": "勇敢的",   "emoji": "💪", "imageUrl": "https://images.unsplash.com/photo-1530549387789-4c1017266635?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "sentences", "label": "句型", "labelEn": "Sentences", "color": "green",
+          "items": [
+            { "text": "I can swim very fast",         "hint": "我能游得很快",     "emoji": "🏊", "imageUrl": "https://images.unsplash.com/photo-1530549387789-4c1017266635?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Always swim with a buddy",     "hint": "游泳时要有伴",     "emoji": "👫", "imageUrl": "https://images.unsplash.com/photo-1516912481808-3406841bd33c?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "museum",
+      "name": "博物馆",
+      "nameEn": "Museum",
+      "emoji": "🏛️",
+      "video": "/videos/museum.mp4",
+      "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+      "tabs": [
+        {
+          "id": "words", "label": "单词", "labelEn": "Words", "color": "orange",
+          "items": [
+            { "text": "Exhibit",   "hint": "展品",   "emoji": "🖼️", "imageUrl": "https://images.unsplash.com/photo-1564399579883-451a5d44ec08?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Artifact",  "hint": "文物",   "emoji": "🏺", "imageUrl": "https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Guide",     "hint": "导游",   "emoji": "🎙️", "imageUrl": "https://images.unsplash.com/photo-1544967082-d9d25d867d66?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Gallery",   "hint": "展厅",   "emoji": "🏛️", "imageUrl": "https://images.unsplash.com/photo-1582555172866-f73bb12a2ab3?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "commands", "label": "指令", "labelEn": "Commands", "color": "blue",
+          "items": [
+            { "text": "Don't touch the exhibits",     "hint": "不要触摸展品",   "emoji": "🚫", "imageUrl": "https://images.unsplash.com/photo-1564399579883-451a5d44ec08?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Follow the guide",             "hint": "跟随导游",       "emoji": "👣", "imageUrl": "https://images.unsplash.com/photo-1544967082-d9d25d867d66?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Read the information panel",   "hint": "阅读信息牌",     "emoji": "📋", "imageUrl": "https://images.unsplash.com/photo-1582555172866-f73bb12a2ab3?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "feelings", "label": "感受", "labelEn": "Feelings", "color": "purple",
+          "items": [
+            { "text": "Fascinated",  "hint": "着迷的",   "emoji": "🤩", "imageUrl": "https://images.unsplash.com/photo-1564399579883-451a5d44ec08?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Thoughtful",  "hint": "若有所思",  "emoji": "🤔", "imageUrl": "https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "sentences", "label": "句型", "labelEn": "Sentences", "color": "green",
+          "items": [
+            { "text": "This museum is amazing",       "hint": "这个博物馆太棒了",   "emoji": "🏛️", "imageUrl": "https://images.unsplash.com/photo-1582555172866-f73bb12a2ab3?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "History is very interesting",  "hint": "历史非常有趣",       "emoji": "📜", "imageUrl": "https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gymnasium",
+      "name": "体育馆",
+      "nameEn": "Gymnasium",
+      "emoji": "🏋️",
+      "video": "/videos/gymnasium.mp4",
+      "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+      "tabs": [
+        {
+          "id": "words", "label": "单词", "labelEn": "Words", "color": "orange",
+          "items": [
+            { "text": "Court",     "hint": "球场",   "emoji": "🏀", "imageUrl": "https://images.unsplash.com/photo-1546519638399-1274d346f7f7?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Equipment", "hint": "设备",   "emoji": "🏋️", "imageUrl": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Coach",     "hint": "教练",   "emoji": "🧑‍🏫", "imageUrl": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Score",     "hint": "分数",   "emoji": "🏆", "imageUrl": "https://images.unsplash.com/photo-1540747913346-19212a4b423e?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "commands", "label": "指令", "labelEn": "Commands", "color": "blue",
+          "items": [
+            { "text": "Warm up first",          "hint": "先热身",       "emoji": "🤸", "imageUrl": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Shoot the ball",         "hint": "投篮",         "emoji": "🏀", "imageUrl": "https://images.unsplash.com/photo-1546519638399-1274d346f7f7?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Pass to your teammate",  "hint": "传给你的队友", "emoji": "🤜", "imageUrl": "https://images.unsplash.com/photo-1540747913346-19212a4b423e?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "feelings", "label": "感受", "labelEn": "Feelings", "color": "purple",
+          "items": [
+            { "text": "Energetic",    "hint": "精力充沛", "emoji": "⚡", "imageUrl": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Competitive",  "hint": "好胜的",   "emoji": "🏆", "imageUrl": "https://images.unsplash.com/photo-1540747913346-19212a4b423e?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "sentences", "label": "句型", "labelEn": "Sentences", "color": "green",
+          "items": [
+            { "text": "I love playing basketball",           "hint": "我喜欢打篮球",         "emoji": "🏀", "imageUrl": "https://images.unsplash.com/photo-1546519638399-1274d346f7f7?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Exercise is good for your health",    "hint": "运动对健康有益",       "emoji": "💪", "imageUrl": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cinema",
+      "name": "电影院",
+      "nameEn": "Cinema",
+      "emoji": "🎬",
+      "video": "/videos/cinema.mp4",
+      "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+      "tabs": [
+        {
+          "id": "words", "label": "单词", "labelEn": "Words", "color": "orange",
+          "items": [
+            { "text": "Popcorn", "hint": "爆米花", "emoji": "🍿", "imageUrl": "https://images.unsplash.com/photo-1585647347483-22b66260dfff?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Screen",  "hint": "屏幕",   "emoji": "🎞️", "imageUrl": "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Seat",    "hint": "座位",   "emoji": "💺", "imageUrl": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Trailer", "hint": "预告片", "emoji": "🎥", "imageUrl": "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "commands", "label": "指令", "labelEn": "Commands", "color": "blue",
+          "items": [
+            { "text": "Turn off your phone",  "hint": "关掉你的手机", "emoji": "📵", "imageUrl": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Find your seat",        "hint": "找到你的座位", "emoji": "💺", "imageUrl": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Enjoy the movie",       "hint": "欣赏电影",     "emoji": "🎬", "imageUrl": "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "feelings", "label": "感受", "labelEn": "Feelings", "color": "purple",
+          "items": [
+            { "text": "Thrilled", "hint": "激动的", "emoji": "😆", "imageUrl": "https://images.unsplash.com/photo-1585647347483-22b66260dfff?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Sad",      "hint": "难过的", "emoji": "😢", "imageUrl": "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "sentences", "label": "句型", "labelEn": "Sentences", "color": "green",
+          "items": [
+            { "text": "The movie starts at seven",    "hint": "电影七点开始",     "emoji": "🎬", "imageUrl": "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Let's get some popcorn",       "hint": "我们去买爆米花吧", "emoji": "🍿", "imageUrl": "https://images.unsplash.com/photo-1585647347483-22b66260dfff?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fire-station",
+      "name": "消防站",
+      "nameEn": "Fire Station",
+      "emoji": "🚒",
+      "video": "/videos/fire-station.mp4",
+      "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+      "tabs": [
+        {
+          "id": "words", "label": "单词", "labelEn": "Words", "color": "orange",
+          "items": [
+            { "text": "Fire truck",   "hint": "消防车",   "emoji": "🚒", "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Firefighter",  "hint": "消防员",   "emoji": "👨‍🚒", "imageUrl": "https://images.unsplash.com/photo-1486162928267-e6274cb3106b?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Hose",         "hint": "水管",     "emoji": "🌊", "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Alarm",        "hint": "警报",     "emoji": "🚨", "imageUrl": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "commands", "label": "指令", "labelEn": "Commands", "color": "blue",
+          "items": [
+            { "text": "Call the fire department",   "hint": "打电话给消防部门", "emoji": "📞", "imageUrl": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Get out of the building",    "hint": "离开建筑物",       "emoji": "🏃", "imageUrl": "https://images.unsplash.com/photo-1486162928267-e6274cb3106b?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Don't use the elevator",     "hint": "不要使用电梯",     "emoji": "🚫", "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "feelings", "label": "感受", "labelEn": "Feelings", "color": "purple",
+          "items": [
+            { "text": "Brave", "hint": "勇敢的", "emoji": "🦸", "imageUrl": "https://images.unsplash.com/photo-1486162928267-e6274cb3106b?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Alert", "hint": "警觉的", "emoji": "👀", "imageUrl": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "sentences", "label": "句型", "labelEn": "Sentences", "color": "green",
+          "items": [
+            { "text": "Firefighters are very brave",       "hint": "消防员非常勇敢",       "emoji": "🚒", "imageUrl": "https://images.unsplash.com/photo-1486162928267-e6274cb3106b?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Fire safety is very important",     "hint": "消防安全非常重要",     "emoji": "🔥", "imageUrl": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "farmers-market",
+      "name": "菜市场",
+      "nameEn": "Farmers Market",
+      "emoji": "🥬",
+      "video": "/videos/farmers-market.mp4",
+      "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+      "tabs": [
+        {
+          "id": "words", "label": "单词", "labelEn": "Words", "color": "orange",
+          "items": [
+            { "text": "Vegetable", "hint": "蔬菜",   "emoji": "🥦", "imageUrl": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Vendor",    "hint": "摊贩",   "emoji": "🧑‍🌾", "imageUrl": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Basket",    "hint": "篮子",   "emoji": "🧺", "imageUrl": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Fresh",     "hint": "新鲜的", "emoji": "🌿", "imageUrl": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "commands", "label": "指令", "labelEn": "Commands", "color": "blue",
+          "items": [
+            { "text": "How much for the tomatoes?", "hint": "西红柿多少钱？", "emoji": "🍅", "imageUrl": "https://images.unsplash.com/photo-1558818498-28c1e002b655?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Give me one kilogram",       "hint": "给我一公斤",     "emoji": "⚖️", "imageUrl": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Pick the fresh ones",        "hint": "挑新鲜的",       "emoji": "🌿", "imageUrl": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "feelings", "label": "感受", "labelEn": "Feelings", "color": "purple",
+          "items": [
+            { "text": "Lively",    "hint": "活泼的", "emoji": "😊", "imageUrl": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Satisfied", "hint": "满意的", "emoji": "😌", "imageUrl": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "sentences", "label": "句型", "labelEn": "Sentences", "color": "green",
+          "items": [
+            { "text": "The vegetables are very fresh",    "hint": "蔬菜非常新鲜",   "emoji": "🥬", "imageUrl": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "The market is busy today",         "hint": "今天市场很热闹", "emoji": "🛒", "imageUrl": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "barbershop",
+      "name": "理发店",
+      "nameEn": "Barbershop",
+      "emoji": "💈",
+      "video": "/videos/barbershop.mp4",
+      "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+      "tabs": [
+        {
+          "id": "words", "label": "单词", "labelEn": "Words", "color": "orange",
+          "items": [
+            { "text": "Haircut", "hint": "理发",     "emoji": "✂️", "imageUrl": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Barber",  "hint": "理发师",   "emoji": "💈", "imageUrl": "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Mirror",  "hint": "镜子",     "emoji": "🪞", "imageUrl": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Comb",    "hint": "梳子",     "emoji": "🪮", "imageUrl": "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "commands", "label": "指令", "labelEn": "Commands", "color": "blue",
+          "items": [
+            { "text": "Sit in the chair",         "hint": "坐在椅子上",     "emoji": "🪑", "imageUrl": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Cut it shorter please",    "hint": "请剪短一些",     "emoji": "✂️", "imageUrl": "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Style it like this photo", "hint": "照这张照片的样式", "emoji": "📸", "imageUrl": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "feelings", "label": "感受", "labelEn": "Feelings", "color": "purple",
+          "items": [
+            { "text": "Confident", "hint": "自信的", "emoji": "😎", "imageUrl": "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Picky",     "hint": "挑剔的", "emoji": "🤔", "imageUrl": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "sentences", "label": "句型", "labelEn": "Sentences", "color": "green",
+          "items": [
+            { "text": "I need a haircut today",     "hint": "我今天需要理发",   "emoji": "✂️", "imageUrl": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "I like my new hairstyle",    "hint": "我喜欢我的新发型", "emoji": "💈", "imageUrl": "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "playground",
+      "name": "游乐场",
+      "nameEn": "Playground",
+      "emoji": "🎠",
+      "video": "/videos/playground.mp4",
+      "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+      "tabs": [
+        {
+          "id": "words", "label": "单词", "labelEn": "Words", "color": "orange",
+          "items": [
+            { "text": "Slide",   "hint": "滑梯",   "emoji": "🛝", "imageUrl": "https://images.unsplash.com/photo-1575783970733-1aaedde1db74?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Swing",   "hint": "秋千",   "emoji": "🪂", "imageUrl": "https://images.unsplash.com/photo-1575783970733-1aaedde1db74?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Sandbox", "hint": "沙坑",   "emoji": "🏖️", "imageUrl": "https://images.unsplash.com/photo-1562686515-89efab9a0893?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Seesaw",  "hint": "跷跷板", "emoji": "⚖️", "imageUrl": "https://images.unsplash.com/photo-1575783970733-1aaedde1db74?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "commands", "label": "指令", "labelEn": "Commands", "color": "blue",
+          "items": [
+            { "text": "Go down the slide",    "hint": "从滑梯滑下去", "emoji": "🛝", "imageUrl": "https://images.unsplash.com/photo-1575783970733-1aaedde1db74?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Share the swings",     "hint": "分享秋千",     "emoji": "🤝", "imageUrl": "https://images.unsplash.com/photo-1575783970733-1aaedde1db74?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Take turns please",    "hint": "请轮流",       "emoji": "🔄", "imageUrl": "https://images.unsplash.com/photo-1562686515-89efab9a0893?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "feelings", "label": "感受", "labelEn": "Feelings", "color": "purple",
+          "items": [
+            { "text": "Joyful",  "hint": "快乐的", "emoji": "😂", "imageUrl": "https://images.unsplash.com/photo-1575783970733-1aaedde1db74?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Playful", "hint": "爱玩的", "emoji": "🎉", "imageUrl": "https://images.unsplash.com/photo-1562686515-89efab9a0893?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "sentences", "label": "句型", "labelEn": "Sentences", "color": "green",
+          "items": [
+            { "text": "The slide is so fun!",      "hint": "滑梯太好玩了！",   "emoji": "🛝", "imageUrl": "https://images.unsplash.com/photo-1575783970733-1aaedde1db74?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Let's play together",       "hint": "我们一起玩吧",     "emoji": "👫", "imageUrl": "https://images.unsplash.com/photo-1562686515-89efab9a0893?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gas-station",
+      "name": "加油站",
+      "nameEn": "Gas Station",
+      "emoji": "⛽",
+      "video": "/videos/gas-station.mp4",
+      "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+      "tabs": [
+        {
+          "id": "words", "label": "单词", "labelEn": "Words", "color": "orange",
+          "items": [
+            { "text": "Fuel",      "hint": "燃料",   "emoji": "⛽", "imageUrl": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Pump",      "hint": "油泵",   "emoji": "🔧", "imageUrl": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Attendant", "hint": "服务员", "emoji": "🧑‍🔧", "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Car wash",  "hint": "洗车",   "emoji": "🚗", "imageUrl": "https://images.unsplash.com/photo-1566933293069-b55c7f326dd4?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "commands", "label": "指令", "labelEn": "Commands", "color": "blue",
+          "items": [
+            { "text": "Fill up the tank",     "hint": "把油箱加满",   "emoji": "⛽", "imageUrl": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Turn off the engine",  "hint": "关掉发动机",   "emoji": "🔑", "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Pay at the counter",   "hint": "在柜台付款",   "emoji": "💳", "imageUrl": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "feelings", "label": "感受", "labelEn": "Feelings", "color": "purple",
+          "items": [
+            { "text": "Responsible", "hint": "负责任的", "emoji": "🤝", "imageUrl": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Careful",     "hint": "小心的",   "emoji": "⚠️", "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        },
+        {
+          "id": "sentences", "label": "句型", "labelEn": "Sentences", "color": "green",
+          "items": [
+            { "text": "The car needs more fuel",     "hint": "车需要加油了",   "emoji": "⛽", "imageUrl": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=400&h=400&fit=crop&auto=format&q=80" },
+            { "text": "Can I get a car wash too?",   "hint": "我也可以洗车吗？", "emoji": "🚗", "imageUrl": "https://images.unsplash.com/photo-1566933293069-b55c7f326dd4?w=400&h=400&fit=crop&auto=format&q=80" }
+          ]
+        }
+      ]
+    }
+  ]
+}

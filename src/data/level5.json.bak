@@ -1,0 +1,2296 @@
+{
+  "levels": [
+    {
+      "id": "scientist",
+      "name": "小小科学家",
+      "nameEn": "The Little Scientist",
+      "emoji": "🔬",
+      "color": "purple",
+      "bgFrom": "#6366f1",
+      "bgTo": "#1e1b4b",
+      "locked": true,
+      "scenes": [
+        {
+          "id": "wear-lab-coat",
+          "name": "穿上实验服",
+          "nameEn": "Putting on the Lab Coat",
+          "emoji": "🥼",
+          "video": "/videos/wear-lab-coat.mp4",
+          "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+          "tabs": [
+            {
+              "id": "words",
+              "label": "单词",
+              "labelEn": "Words",
+              "color": "purple",
+              "items": [
+                {
+                  "text": "Lab coat",
+                  "hint": "实验服",
+                  "emoji": "🥼",
+                  "imageUrl": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Goggles",
+                  "hint": "护目镜",
+                  "emoji": "🥽",
+                  "imageUrl": "https://images.unsplash.com/photo-1582719471384-894fbb16e074?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Gloves",
+                  "hint": "手套",
+                  "emoji": "🧤",
+                  "imageUrl": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Scientist",
+                  "hint": "科学家",
+                  "emoji": "👩‍🔬",
+                  "imageUrl": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "commands",
+              "label": "指令",
+              "labelEn": "Commands",
+              "color": "blue",
+              "items": [
+                {
+                  "text": "Put on your lab coat first",
+                  "hint": "先穿上实验服",
+                  "emoji": "🥼",
+                  "imageUrl": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Wear your safety goggles",
+                  "hint": "戴上护目镜",
+                  "emoji": "🥽",
+                  "imageUrl": "https://images.unsplash.com/photo-1582719471384-894fbb16e074?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Keep your gloves on at all times",
+                  "hint": "全程保持戴着手套",
+                  "emoji": "🧤",
+                  "imageUrl": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "feelings",
+              "label": "感受",
+              "labelEn": "Feelings",
+              "color": "purple",
+              "items": [
+                {
+                  "text": "Ready",
+                  "hint": "准备好了",
+                  "emoji": "💪",
+                  "imageUrl": "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Excited",
+                  "hint": "兴奋",
+                  "emoji": "🤩",
+                  "imageUrl": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Focused",
+                  "hint": "专注",
+                  "emoji": "🎯",
+                  "imageUrl": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "sentences",
+              "label": "句型",
+              "labelEn": "Sentences",
+              "color": "green",
+              "items": [
+                {
+                  "text": "I'm ready to do science!",
+                  "hint": "我准备好做科学实验了！",
+                  "emoji": "🔬",
+                  "imageUrl": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Safety first, always in the lab.",
+                  "hint": "在实验室里，安全永远第一。",
+                  "emoji": "🥽",
+                  "imageUrl": "https://images.unsplash.com/photo-1582719471384-894fbb16e074?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lab-tools",
+          "name": "认识实验工具",
+          "nameEn": "Getting to Know Lab Tools",
+          "emoji": "🧪",
+          "video": "/videos/lab-tools.mp4",
+          "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+          "tabs": [
+            {
+              "id": "words",
+              "label": "单词",
+              "labelEn": "Words",
+              "color": "purple",
+              "items": [
+                {
+                  "text": "Beaker",
+                  "hint": "烧杯",
+                  "emoji": "🧪",
+                  "imageUrl": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Test tube",
+                  "hint": "试管",
+                  "emoji": "🔬",
+                  "imageUrl": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Funnel",
+                  "hint": "漏斗",
+                  "emoji": "🌀",
+                  "imageUrl": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Dropper",
+                  "hint": "滴管",
+                  "emoji": "💧",
+                  "imageUrl": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "commands",
+              "label": "指令",
+              "labelEn": "Commands",
+              "color": "blue",
+              "items": [
+                {
+                  "text": "Hold the beaker with both hands",
+                  "hint": "用双手握住烧杯",
+                  "emoji": "🧪",
+                  "imageUrl": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Never drink from test tubes",
+                  "hint": "绝对不要用试管喝东西",
+                  "emoji": "🚫",
+                  "imageUrl": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Label every piece of equipment",
+                  "hint": "给每件器材贴上标签",
+                  "emoji": "🏷️",
+                  "imageUrl": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "feelings",
+              "label": "感受",
+              "labelEn": "Feelings",
+              "color": "purple",
+              "items": [
+                {
+                  "text": "Curious",
+                  "hint": "好奇",
+                  "emoji": "🤔",
+                  "imageUrl": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Careful",
+                  "hint": "小心",
+                  "emoji": "🧐",
+                  "imageUrl": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Smart",
+                  "hint": "聪明",
+                  "emoji": "🧠",
+                  "imageUrl": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "sentences",
+              "label": "句型",
+              "labelEn": "Sentences",
+              "color": "green",
+              "items": [
+                {
+                  "text": "What does this tool do?",
+                  "hint": "这个工具是用来做什么的？",
+                  "emoji": "🔬",
+                  "imageUrl": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Every tool has a special purpose.",
+                  "hint": "每件工具都有特别的用途。",
+                  "emoji": "🧪",
+                  "imageUrl": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "color-mixing",
+          "name": "混合颜色实验",
+          "nameEn": "The Colour Mixing Experiment",
+          "emoji": "🌈",
+          "video": "/videos/color-mixing.mp4",
+          "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+          "tabs": [
+            {
+              "id": "words",
+              "label": "单词",
+              "labelEn": "Words",
+              "color": "purple",
+              "items": [
+                {
+                  "text": "Mix",
+                  "hint": "混合",
+                  "emoji": "🌀",
+                  "imageUrl": "https://images.unsplash.com/photo-1579547945413-497e1b99dac0?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Red",
+                  "hint": "红色",
+                  "emoji": "🔴",
+                  "imageUrl": "https://images.unsplash.com/photo-1541535650810-10d26f5c2ab3?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Blue",
+                  "hint": "蓝色",
+                  "emoji": "🔵",
+                  "imageUrl": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Yellow",
+                  "hint": "黄色",
+                  "emoji": "🟡",
+                  "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "commands",
+              "label": "指令",
+              "labelEn": "Commands",
+              "color": "blue",
+              "items": [
+                {
+                  "text": "Add one drop at a time",
+                  "hint": "一次只加一滴",
+                  "emoji": "💧",
+                  "imageUrl": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Stir the mixture slowly",
+                  "hint": "慢慢搅拌混合物",
+                  "emoji": "🌀",
+                  "imageUrl": "https://images.unsplash.com/photo-1579547945413-497e1b99dac0?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Predict what will happen",
+                  "hint": "预测会发生什么",
+                  "emoji": "🤔",
+                  "imageUrl": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "feelings",
+              "label": "感受",
+              "labelEn": "Feelings",
+              "color": "purple",
+              "items": [
+                {
+                  "text": "Amazed",
+                  "hint": "惊叹",
+                  "emoji": "😮",
+                  "imageUrl": "https://images.unsplash.com/photo-1579547945413-497e1b99dac0?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Curious",
+                  "hint": "好奇",
+                  "emoji": "🤔",
+                  "imageUrl": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Creative",
+                  "hint": "有创意",
+                  "emoji": "💡",
+                  "imageUrl": "https://images.unsplash.com/photo-1541535650810-10d26f5c2ab3?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "sentences",
+              "label": "句型",
+              "labelEn": "Sentences",
+              "color": "green",
+              "items": [
+                {
+                  "text": "If we mix red and white, we get pink.",
+                  "hint": "如果我们把红色和白色混合，就会得到粉色。",
+                  "emoji": "🌈",
+                  "imageUrl": "https://images.unsplash.com/photo-1579547945413-497e1b99dac0?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "What happens when we mix blue and yellow?",
+                  "hint": "当我们把蓝色和黄色混合会发生什么？",
+                  "emoji": "🟡",
+                  "imageUrl": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "magnet-experiment",
+          "name": "磁铁实验",
+          "nameEn": "The Magnet Experiment",
+          "emoji": "🧲",
+          "video": "/videos/magnet-experiment.mp4",
+          "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+          "tabs": [
+            {
+              "id": "words",
+              "label": "单词",
+              "labelEn": "Words",
+              "color": "purple",
+              "items": [
+                {
+                  "text": "Magnet",
+                  "hint": "磁铁",
+                  "emoji": "🧲",
+                  "imageUrl": "https://images.unsplash.com/photo-1530026186672-2cd00ffc50fe?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Attract",
+                  "hint": "吸引",
+                  "emoji": "⬆️",
+                  "imageUrl": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Repel",
+                  "hint": "排斥",
+                  "emoji": "↔️",
+                  "imageUrl": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Metal",
+                  "hint": "金属",
+                  "emoji": "🔩",
+                  "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "commands",
+              "label": "指令",
+              "labelEn": "Commands",
+              "color": "blue",
+              "items": [
+                {
+                  "text": "Test which objects are magnetic",
+                  "hint": "测试哪些物体有磁性",
+                  "emoji": "🧲",
+                  "imageUrl": "https://images.unsplash.com/photo-1530026186672-2cd00ffc50fe?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Write down your results",
+                  "hint": "写下你的实验结果",
+                  "emoji": "✍️",
+                  "imageUrl": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Keep magnets away from phones",
+                  "hint": "让磁铁远离手机",
+                  "emoji": "📵",
+                  "imageUrl": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "feelings",
+              "label": "感受",
+              "labelEn": "Feelings",
+              "color": "purple",
+              "items": [
+                {
+                  "text": "Surprised",
+                  "hint": "惊讶",
+                  "emoji": "😲",
+                  "imageUrl": "https://images.unsplash.com/photo-1530026186672-2cd00ffc50fe?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Curious",
+                  "hint": "好奇",
+                  "emoji": "🤔",
+                  "imageUrl": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Excited",
+                  "hint": "兴奋",
+                  "emoji": "🤩",
+                  "imageUrl": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "sentences",
+              "label": "句型",
+              "labelEn": "Sentences",
+              "color": "green",
+              "items": [
+                {
+                  "text": "The magnet attracts the paper clip!",
+                  "hint": "磁铁把回形针吸住了！",
+                  "emoji": "🧲",
+                  "imageUrl": "https://images.unsplash.com/photo-1530026186672-2cd00ffc50fe?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "If we flip the magnet, the poles repel.",
+                  "hint": "如果我们翻转磁铁，两极就会互相排斥。",
+                  "emoji": "↔️",
+                  "imageUrl": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "float-and-sink",
+          "name": "沉浮实验",
+          "nameEn": "Float and Sink Experiment",
+          "emoji": "🌊",
+          "video": "/videos/float-and-sink.mp4",
+          "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+          "tabs": [
+            {
+              "id": "words",
+              "label": "单词",
+              "labelEn": "Words",
+              "color": "purple",
+              "items": [
+                {
+                  "text": "Float",
+                  "hint": "浮起来",
+                  "emoji": "🪵",
+                  "imageUrl": "https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Sink",
+                  "hint": "沉下去",
+                  "emoji": "⬇️",
+                  "imageUrl": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Heavy",
+                  "hint": "重",
+                  "emoji": "⚖️",
+                  "imageUrl": "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Light",
+                  "hint": "轻",
+                  "emoji": "🪶",
+                  "imageUrl": "https://images.unsplash.com/photo-1534088568595-a066f410bcda?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "commands",
+              "label": "指令",
+              "labelEn": "Commands",
+              "color": "blue",
+              "items": [
+                {
+                  "text": "Drop each object one by one",
+                  "hint": "一件一件地放进水里",
+                  "emoji": "💧",
+                  "imageUrl": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Predict before you test",
+                  "hint": "实验前先做预测",
+                  "emoji": "🤔",
+                  "imageUrl": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Record every result carefully",
+                  "hint": "仔细记录每次结果",
+                  "emoji": "📝",
+                  "imageUrl": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "feelings",
+              "label": "感受",
+              "labelEn": "Feelings",
+              "color": "purple",
+              "items": [
+                {
+                  "text": "Curious",
+                  "hint": "好奇",
+                  "emoji": "🤔",
+                  "imageUrl": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Surprised",
+                  "hint": "惊讶",
+                  "emoji": "😲",
+                  "imageUrl": "https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Thoughtful",
+                  "hint": "若有所思",
+                  "emoji": "🧐",
+                  "imageUrl": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "sentences",
+              "label": "句型",
+              "labelEn": "Sentences",
+              "color": "green",
+              "items": [
+                {
+                  "text": "The cork floats because it is very light.",
+                  "hint": "软木塞浮起来，因为它很轻。",
+                  "emoji": "🪵",
+                  "imageUrl": "https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "If an object is heavy, it will sink.",
+                  "hint": "如果物体很重，它就会沉下去。",
+                  "emoji": "⬇️",
+                  "imageUrl": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "magnifying-glass",
+          "name": "放大镜观察",
+          "nameEn": "Exploring with a Magnifying Glass",
+          "emoji": "🔍",
+          "video": "/videos/magnifying-glass.mp4",
+          "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+          "tabs": [
+            {
+              "id": "words",
+              "label": "单词",
+              "labelEn": "Words",
+              "color": "purple",
+              "items": [
+                {
+                  "text": "Magnify",
+                  "hint": "放大",
+                  "emoji": "🔍",
+                  "imageUrl": "https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Lens",
+                  "hint": "镜片",
+                  "emoji": "🔭",
+                  "imageUrl": "https://images.unsplash.com/photo-1501426026826-31c667bdf23d?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Tiny",
+                  "hint": "微小的",
+                  "emoji": "🐜",
+                  "imageUrl": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Detail",
+                  "hint": "细节",
+                  "emoji": "👁️",
+                  "imageUrl": "https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "commands",
+              "label": "指令",
+              "labelEn": "Commands",
+              "color": "blue",
+              "items": [
+                {
+                  "text": "Hold the lens up to the light",
+                  "hint": "把镜片对着光",
+                  "emoji": "☀️",
+                  "imageUrl": "https://images.unsplash.com/photo-1501426026826-31c667bdf23d?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Look at a leaf under the glass",
+                  "hint": "用放大镜看树叶",
+                  "emoji": "🍃",
+                  "imageUrl": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Draw exactly what you see",
+                  "hint": "把你看到的画下来",
+                  "emoji": "✏️",
+                  "imageUrl": "https://images.unsplash.com/photo-1452860606245-08befc0ff44b?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "feelings",
+              "label": "感受",
+              "labelEn": "Feelings",
+              "color": "purple",
+              "items": [
+                {
+                  "text": "Amazed",
+                  "hint": "惊叹",
+                  "emoji": "😮",
+                  "imageUrl": "https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Focused",
+                  "hint": "专注",
+                  "emoji": "🎯",
+                  "imageUrl": "https://images.unsplash.com/photo-1501426026826-31c667bdf23d?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Curious",
+                  "hint": "好奇",
+                  "emoji": "🤔",
+                  "imageUrl": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "sentences",
+              "label": "句型",
+              "labelEn": "Sentences",
+              "color": "green",
+              "items": [
+                {
+                  "text": "Everything looks so big through the lens!",
+                  "hint": "透过镜片一切看起来好大啊！",
+                  "emoji": "🔍",
+                  "imageUrl": "https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "If you use a lens, you can see tiny details.",
+                  "hint": "如果你用镜片，就能看到微小的细节。",
+                  "emoji": "🐜",
+                  "imageUrl": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "rainbow-bottle",
+          "name": "彩虹瓶实验",
+          "nameEn": "Rainbow Bottle Experiment",
+          "emoji": "🌈",
+          "video": "/videos/rainbow-bottle.mp4",
+          "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+          "tabs": [
+            {
+              "id": "words",
+              "label": "单词",
+              "labelEn": "Words",
+              "color": "purple",
+              "items": [
+                {
+                  "text": "Layer",
+                  "hint": "层",
+                  "emoji": "📚",
+                  "imageUrl": "https://images.unsplash.com/photo-1579547945413-497e1b99dac0?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Dense",
+                  "hint": "密度大",
+                  "emoji": "⚖️",
+                  "imageUrl": "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Liquid",
+                  "hint": "液体",
+                  "emoji": "💧",
+                  "imageUrl": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Rainbow",
+                  "hint": "彩虹",
+                  "emoji": "🌈",
+                  "imageUrl": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "commands",
+              "label": "指令",
+              "labelEn": "Commands",
+              "color": "blue",
+              "items": [
+                {
+                  "text": "Pour each liquid very slowly",
+                  "hint": "把每种液体倒得非常缓慢",
+                  "emoji": "💧",
+                  "imageUrl": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Never shake the bottle",
+                  "hint": "绝对不要摇瓶子",
+                  "emoji": "🚫",
+                  "imageUrl": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Watch the colours separate",
+                  "hint": "观察颜色分层",
+                  "emoji": "🌈",
+                  "imageUrl": "https://images.unsplash.com/photo-1579547945413-497e1b99dac0?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "feelings",
+              "label": "感受",
+              "labelEn": "Feelings",
+              "color": "purple",
+              "items": [
+                {
+                  "text": "Patient",
+                  "hint": "耐心",
+                  "emoji": "😊",
+                  "imageUrl": "https://images.unsplash.com/photo-1529390079861-591de354faf5?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Amazed",
+                  "hint": "惊叹",
+                  "emoji": "😮",
+                  "imageUrl": "https://images.unsplash.com/photo-1579547945413-497e1b99dac0?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Proud",
+                  "hint": "自豪",
+                  "emoji": "😄",
+                  "imageUrl": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "sentences",
+              "label": "句型",
+              "labelEn": "Sentences",
+              "color": "green",
+              "items": [
+                {
+                  "text": "Denser liquids sink to the bottom.",
+                  "hint": "密度较大的液体会沉到底部。",
+                  "emoji": "⬇️",
+                  "imageUrl": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "If liquids have different densities, they form layers.",
+                  "hint": "如果液体密度不同，它们就会分层。",
+                  "emoji": "🌈",
+                  "imageUrl": "https://images.unsplash.com/photo-1579547945413-497e1b99dac0?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "light-and-shadow",
+          "name": "光与影子",
+          "nameEn": "Light and Shadow",
+          "emoji": "🔦",
+          "video": "/videos/light-and-shadow.mp4",
+          "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+          "tabs": [
+            {
+              "id": "words",
+              "label": "单词",
+              "labelEn": "Words",
+              "color": "purple",
+              "items": [
+                {
+                  "text": "Light",
+                  "hint": "光",
+                  "emoji": "💡",
+                  "imageUrl": "https://images.unsplash.com/photo-1500534314209-a157a0f02af2?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Shadow",
+                  "hint": "影子",
+                  "emoji": "🌑",
+                  "imageUrl": "https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Torch",
+                  "hint": "手电筒",
+                  "emoji": "🔦",
+                  "imageUrl": "https://images.unsplash.com/photo-1530026186672-2cd00ffc50fe?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Block",
+                  "hint": "遮挡",
+                  "emoji": "🚧",
+                  "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "commands",
+              "label": "指令",
+              "labelEn": "Commands",
+              "color": "blue",
+              "items": [
+                {
+                  "text": "Shine the torch on the wall",
+                  "hint": "把手电筒照向墙壁",
+                  "emoji": "🔦",
+                  "imageUrl": "https://images.unsplash.com/photo-1530026186672-2cd00ffc50fe?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Move your hand to make shapes",
+                  "hint": "移动你的手做出形状",
+                  "emoji": "✋",
+                  "imageUrl": "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Watch how the shadow changes size",
+                  "hint": "观察影子大小如何变化",
+                  "emoji": "🌑",
+                  "imageUrl": "https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "feelings",
+              "label": "感受",
+              "labelEn": "Feelings",
+              "color": "purple",
+              "items": [
+                {
+                  "text": "Creative",
+                  "hint": "有创意",
+                  "emoji": "💡",
+                  "imageUrl": "https://images.unsplash.com/photo-1500534314209-a157a0f02af2?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Amazed",
+                  "hint": "惊叹",
+                  "emoji": "😮",
+                  "imageUrl": "https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Playful",
+                  "hint": "爱玩",
+                  "emoji": "😄",
+                  "imageUrl": "https://images.unsplash.com/photo-1530026186672-2cd00ffc50fe?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "sentences",
+              "label": "句型",
+              "labelEn": "Sentences",
+              "color": "green",
+              "items": [
+                {
+                  "text": "When light hits an object, it makes a shadow.",
+                  "hint": "当光照射到物体上时，就会产生影子。",
+                  "emoji": "🌑",
+                  "imageUrl": "https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "If the object is closer, the shadow becomes bigger.",
+                  "hint": "如果物体越近，影子就会越大。",
+                  "emoji": "🔦",
+                  "imageUrl": "https://images.unsplash.com/photo-1530026186672-2cd00ffc50fe?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "plant-experiment",
+          "name": "种植实验",
+          "nameEn": "The Plant Experiment",
+          "emoji": "🌱",
+          "video": "/videos/plant-experiment.mp4",
+          "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+          "tabs": [
+            {
+              "id": "words",
+              "label": "单词",
+              "labelEn": "Words",
+              "color": "purple",
+              "items": [
+                {
+                  "text": "Seed",
+                  "hint": "种子",
+                  "emoji": "🌰",
+                  "imageUrl": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Soil",
+                  "hint": "土壤",
+                  "emoji": "🪴",
+                  "imageUrl": "https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Grow",
+                  "hint": "生长",
+                  "emoji": "🌱",
+                  "imageUrl": "https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Root",
+                  "hint": "根",
+                  "emoji": "🌿",
+                  "imageUrl": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "commands",
+              "label": "指令",
+              "labelEn": "Commands",
+              "color": "blue",
+              "items": [
+                {
+                  "text": "Press the seed gently into the soil",
+                  "hint": "轻轻地把种子按进土里",
+                  "emoji": "🌰",
+                  "imageUrl": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Water it a little every day",
+                  "hint": "每天给它浇一点点水",
+                  "emoji": "💧",
+                  "imageUrl": "https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Place it near a sunny window",
+                  "hint": "把它放在阳光充足的窗边",
+                  "emoji": "☀️",
+                  "imageUrl": "https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "feelings",
+              "label": "感受",
+              "labelEn": "Feelings",
+              "color": "purple",
+              "items": [
+                {
+                  "text": "Patient",
+                  "hint": "耐心",
+                  "emoji": "😊",
+                  "imageUrl": "https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Hopeful",
+                  "hint": "充满希望",
+                  "emoji": "🌟",
+                  "imageUrl": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Gentle",
+                  "hint": "温柔",
+                  "emoji": "🌿",
+                  "imageUrl": "https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "sentences",
+              "label": "句型",
+              "labelEn": "Sentences",
+              "color": "green",
+              "items": [
+                {
+                  "text": "Seeds need water and sunlight to grow.",
+                  "hint": "种子需要水和阳光才能生长。",
+                  "emoji": "🌱",
+                  "imageUrl": "https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "If we water it daily, it will grow much faster.",
+                  "hint": "如果我们每天浇水，它会长得快很多。",
+                  "emoji": "💧",
+                  "imageUrl": "https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "write-lab-notes",
+          "name": "写实验笔记",
+          "nameEn": "Writing My Lab Notes",
+          "emoji": "📓",
+          "video": "/videos/write-lab-notes.mp4",
+          "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+          "tabs": [
+            {
+              "id": "words",
+              "label": "单词",
+              "labelEn": "Words",
+              "color": "purple",
+              "items": [
+                {
+                  "text": "Observe",
+                  "hint": "观察",
+                  "emoji": "👁️",
+                  "imageUrl": "https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Record",
+                  "hint": "记录",
+                  "emoji": "📝",
+                  "imageUrl": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Result",
+                  "hint": "结果",
+                  "emoji": "✅",
+                  "imageUrl": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Conclusion",
+                  "hint": "结论",
+                  "emoji": "💡",
+                  "imageUrl": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "commands",
+              "label": "指令",
+              "labelEn": "Commands",
+              "color": "blue",
+              "items": [
+                {
+                  "text": "Write down exactly what you saw",
+                  "hint": "写下你准确观察到的内容",
+                  "emoji": "📝",
+                  "imageUrl": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Draw a clear diagram",
+                  "hint": "画一个清晰的示意图",
+                  "emoji": "✏️",
+                  "imageUrl": "https://images.unsplash.com/photo-1452860606245-08befc0ff44b?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Share your findings with everyone",
+                  "hint": "把你的发现告诉大家",
+                  "emoji": "🗣️",
+                  "imageUrl": "https://images.unsplash.com/photo-1516733725897-1aa73b87c8e8?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "feelings",
+              "label": "感受",
+              "labelEn": "Feelings",
+              "color": "purple",
+              "items": [
+                {
+                  "text": "Accomplished",
+                  "hint": "有成就感",
+                  "emoji": "🏆",
+                  "imageUrl": "https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Thoughtful",
+                  "hint": "若有所思",
+                  "emoji": "🧐",
+                  "imageUrl": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Proud",
+                  "hint": "自豪",
+                  "emoji": "😊",
+                  "imageUrl": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "sentences",
+              "label": "句型",
+              "labelEn": "Sentences",
+              "color": "green",
+              "items": [
+                {
+                  "text": "Scientists always record their results.",
+                  "hint": "科学家总是记录他们的实验结果。",
+                  "emoji": "📓",
+                  "imageUrl": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "My conclusion is: if we add more water, it grows faster.",
+                  "hint": "我的结论是：如果我们多浇水，它会长得更快。",
+                  "emoji": "💡",
+                  "imageUrl": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "heartbeat",
+          "name": "听跳动的心脏",
+          "nameEn": "Listening to My Heartbeat",
+          "emoji": "❤️",
+          "video": "/videos/heartbeat.mp4",
+          "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+          "tabs": [
+            {
+              "id": "words",
+              "label": "单词",
+              "labelEn": "Words",
+              "color": "purple",
+              "items": [
+                {
+                  "text": "Heart",
+                  "hint": "心脏",
+                  "emoji": "❤️",
+                  "imageUrl": "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Beat",
+                  "hint": "跳动",
+                  "emoji": "💓",
+                  "imageUrl": "https://images.unsplash.com/photo-1530026186672-2cd00ffc50fe?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Pulse",
+                  "hint": "脉搏",
+                  "emoji": "📈",
+                  "imageUrl": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Stethoscope",
+                  "hint": "听诊器",
+                  "emoji": "🩺",
+                  "imageUrl": "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "commands",
+              "label": "指令",
+              "labelEn": "Commands",
+              "color": "blue",
+              "items": [
+                {
+                  "text": "Place your hand on your chest",
+                  "hint": "把手放在胸口",
+                  "emoji": "✋",
+                  "imageUrl": "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Count the beats for ten seconds",
+                  "hint": "数十秒内跳动几次",
+                  "emoji": "⏱️",
+                  "imageUrl": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Now jump and check again",
+                  "hint": "现在跳一跳再检查一次",
+                  "emoji": "🦘",
+                  "imageUrl": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "feelings",
+              "label": "感受",
+              "labelEn": "Feelings",
+              "color": "purple",
+              "items": [
+                {
+                  "text": "Amazed",
+                  "hint": "惊叹",
+                  "emoji": "😮",
+                  "imageUrl": "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Curious",
+                  "hint": "好奇",
+                  "emoji": "🤔",
+                  "imageUrl": "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Grateful",
+                  "hint": "感恩",
+                  "emoji": "🙏",
+                  "imageUrl": "https://images.unsplash.com/photo-1530026186672-2cd00ffc50fe?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "sentences",
+              "label": "句型",
+              "labelEn": "Sentences",
+              "color": "green",
+              "items": [
+                {
+                  "text": "My heart beats faster because I was running.",
+                  "hint": "我的心跳加快，因为我刚才在跑步。",
+                  "emoji": "❤️",
+                  "imageUrl": "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "If your heart is beating, you are alive!",
+                  "hint": "如果你的心脏在跳动，你就是活着的！",
+                  "emoji": "💓",
+                  "imageUrl": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "deep-breath",
+          "name": "深呼吸",
+          "nameEn": "Taking a Deep Breath",
+          "emoji": "🫁",
+          "video": "/videos/deep-breath.mp4",
+          "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+          "tabs": [
+            {
+              "id": "words",
+              "label": "单词",
+              "labelEn": "Words",
+              "color": "purple",
+              "items": [
+                {
+                  "text": "Breathe",
+                  "hint": "呼吸",
+                  "emoji": "🫁",
+                  "imageUrl": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Lungs",
+                  "hint": "肺",
+                  "emoji": "🫧",
+                  "imageUrl": "https://images.unsplash.com/photo-1530026186672-2cd00ffc50fe?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Air",
+                  "hint": "空气",
+                  "emoji": "💨",
+                  "imageUrl": "https://images.unsplash.com/photo-1534088568595-a066f410bcda?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Oxygen",
+                  "hint": "氧气",
+                  "emoji": "⚗️",
+                  "imageUrl": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "commands",
+              "label": "指令",
+              "labelEn": "Commands",
+              "color": "blue",
+              "items": [
+                {
+                  "text": "Breathe in slowly through your nose",
+                  "hint": "用鼻子慢慢吸气",
+                  "emoji": "👃",
+                  "imageUrl": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Hold it for three seconds",
+                  "hint": "憋气三秒",
+                  "emoji": "⏱️",
+                  "imageUrl": "https://images.unsplash.com/photo-1534088568595-a066f410bcda?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Breathe out slowly through your mouth",
+                  "hint": "用嘴慢慢呼气",
+                  "emoji": "💨",
+                  "imageUrl": "https://images.unsplash.com/photo-1530026186672-2cd00ffc50fe?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "feelings",
+              "label": "感受",
+              "labelEn": "Feelings",
+              "color": "purple",
+              "items": [
+                {
+                  "text": "Calm",
+                  "hint": "平静",
+                  "emoji": "😌",
+                  "imageUrl": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Refreshed",
+                  "hint": "神清气爽",
+                  "emoji": "✨",
+                  "imageUrl": "https://images.unsplash.com/photo-1534088568595-a066f410bcda?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Relaxed",
+                  "hint": "放松",
+                  "emoji": "😊",
+                  "imageUrl": "https://images.unsplash.com/photo-1545579133-99bb5ad189be?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "sentences",
+              "label": "句型",
+              "labelEn": "Sentences",
+              "color": "green",
+              "items": [
+                {
+                  "text": "When you breathe in, your lungs fill with air.",
+                  "hint": "当你吸气时，你的肺里充满了空气。",
+                  "emoji": "🫁",
+                  "imageUrl": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "If you breathe deeply, you will feel much calmer.",
+                  "hint": "如果你深呼吸，你会感觉平静很多。",
+                  "emoji": "💨",
+                  "imageUrl": "https://images.unsplash.com/photo-1534088568595-a066f410bcda?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hard-bones",
+          "name": "感受坚硬的骨头",
+          "nameEn": "Feeling My Hard Bones",
+          "emoji": "🦴",
+          "video": "/videos/hard-bones.mp4",
+          "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+          "tabs": [
+            {
+              "id": "words",
+              "label": "单词",
+              "labelEn": "Words",
+              "color": "purple",
+              "items": [
+                {
+                  "text": "Bone",
+                  "hint": "骨头",
+                  "emoji": "🦴",
+                  "imageUrl": "https://images.unsplash.com/photo-1530026186672-2cd00ffc50fe?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Skeleton",
+                  "hint": "骨骼",
+                  "emoji": "💀",
+                  "imageUrl": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Hard",
+                  "hint": "坚硬",
+                  "emoji": "💪",
+                  "imageUrl": "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Joint",
+                  "hint": "关节",
+                  "emoji": "🦾",
+                  "imageUrl": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "commands",
+              "label": "指令",
+              "labelEn": "Commands",
+              "color": "blue",
+              "items": [
+                {
+                  "text": "Press your arm gently to feel the bone",
+                  "hint": "轻轻按压手臂感受骨头",
+                  "emoji": "🦴",
+                  "imageUrl": "https://images.unsplash.com/photo-1530026186672-2cd00ffc50fe?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Bend your knee slowly",
+                  "hint": "慢慢弯曲你的膝盖",
+                  "emoji": "🦵",
+                  "imageUrl": "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Count how many knuckles you have",
+                  "hint": "数数你有几个指节",
+                  "emoji": "✋",
+                  "imageUrl": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "feelings",
+              "label": "感受",
+              "labelEn": "Feelings",
+              "color": "purple",
+              "items": [
+                {
+                  "text": "Curious",
+                  "hint": "好奇",
+                  "emoji": "🤔",
+                  "imageUrl": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Amazed",
+                  "hint": "惊叹",
+                  "emoji": "😮",
+                  "imageUrl": "https://images.unsplash.com/photo-1530026186672-2cd00ffc50fe?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Strong",
+                  "hint": "强壮",
+                  "emoji": "💪",
+                  "imageUrl": "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "sentences",
+              "label": "句型",
+              "labelEn": "Sentences",
+              "color": "green",
+              "items": [
+                {
+                  "text": "Bones are hard because they support our whole body.",
+                  "hint": "骨头是坚硬的，因为它们支撑我们整个身体。",
+                  "emoji": "🦴",
+                  "imageUrl": "https://images.unsplash.com/photo-1530026186672-2cd00ffc50fe?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "If we had no bones, we could not stand up.",
+                  "hint": "如果我们没有骨头，我们就站不起来。",
+                  "emoji": "💀",
+                  "imageUrl": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tasting-flavors",
+          "name": "尝出味道",
+          "nameEn": "Tasting Different Flavours",
+          "emoji": "👅",
+          "video": "/videos/tasting-flavors.mp4",
+          "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+          "tabs": [
+            {
+              "id": "words",
+              "label": "单词",
+              "labelEn": "Words",
+              "color": "purple",
+              "items": [
+                {
+                  "text": "Sweet",
+                  "hint": "甜",
+                  "emoji": "🍬",
+                  "imageUrl": "https://images.unsplash.com/photo-1488900128323-21503983a07e?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Sour",
+                  "hint": "酸",
+                  "emoji": "🍋",
+                  "imageUrl": "https://images.unsplash.com/photo-1516100882582-96c3a05fe590?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Bitter",
+                  "hint": "苦",
+                  "emoji": "☕",
+                  "imageUrl": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Salty",
+                  "hint": "咸",
+                  "emoji": "🧂",
+                  "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "commands",
+              "label": "指令",
+              "labelEn": "Commands",
+              "color": "blue",
+              "items": [
+                {
+                  "text": "Take a tiny taste and think",
+                  "hint": "尝一小口然后想一想",
+                  "emoji": "👅",
+                  "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Describe the flavour you taste",
+                  "hint": "描述你尝到的味道",
+                  "emoji": "🗣️",
+                  "imageUrl": "https://images.unsplash.com/photo-1488900128323-21503983a07e?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Which flavour do you prefer?",
+                  "hint": "你更喜欢哪种味道？",
+                  "emoji": "🤔",
+                  "imageUrl": "https://images.unsplash.com/photo-1516100882582-96c3a05fe590?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "feelings",
+              "label": "感受",
+              "labelEn": "Feelings",
+              "color": "purple",
+              "items": [
+                {
+                  "text": "Surprised",
+                  "hint": "惊讶",
+                  "emoji": "😲",
+                  "imageUrl": "https://images.unsplash.com/photo-1516100882582-96c3a05fe590?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Delighted",
+                  "hint": "欣喜",
+                  "emoji": "😍",
+                  "imageUrl": "https://images.unsplash.com/photo-1488900128323-21503983a07e?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Curious",
+                  "hint": "好奇",
+                  "emoji": "🤔",
+                  "imageUrl": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "sentences",
+              "label": "句型",
+              "labelEn": "Sentences",
+              "color": "green",
+              "items": [
+                {
+                  "text": "It tastes sour because it has a lot of acid.",
+                  "hint": "它尝起来酸，因为里面有很多酸性物质。",
+                  "emoji": "🍋",
+                  "imageUrl": "https://images.unsplash.com/photo-1516100882582-96c3a05fe590?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "If you add sugar, the sour taste will go away.",
+                  "hint": "如果你加糖，酸味就会消失。",
+                  "emoji": "🍬",
+                  "imageUrl": "https://images.unsplash.com/photo-1488900128323-21503983a07e?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "smelling-flowers",
+          "name": "闻花香",
+          "nameEn": "Smelling the Flowers",
+          "emoji": "🌸",
+          "video": "/videos/smelling-flowers.mp4",
+          "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+          "tabs": [
+            {
+              "id": "words",
+              "label": "单词",
+              "labelEn": "Words",
+              "color": "purple",
+              "items": [
+                {
+                  "text": "Smell",
+                  "hint": "闻",
+                  "emoji": "👃",
+                  "imageUrl": "https://images.unsplash.com/photo-1490750967868-88df5691cc2b?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Fresh",
+                  "hint": "清新",
+                  "emoji": "🌿",
+                  "imageUrl": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Petal",
+                  "hint": "花瓣",
+                  "emoji": "🌸",
+                  "imageUrl": "https://images.unsplash.com/photo-1490750967868-88df5691cc2b?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Scent",
+                  "hint": "香味",
+                  "emoji": "✨",
+                  "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "commands",
+              "label": "指令",
+              "labelEn": "Commands",
+              "color": "blue",
+              "items": [
+                {
+                  "text": "Close your eyes and smell",
+                  "hint": "闭上眼睛闻一闻",
+                  "emoji": "👃",
+                  "imageUrl": "https://images.unsplash.com/photo-1490750967868-88df5691cc2b?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Describe the smell you notice",
+                  "hint": "描述你闻到的气味",
+                  "emoji": "🗣️",
+                  "imageUrl": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Try to guess the flower by smell",
+                  "hint": "试试用气味猜出是什么花",
+                  "emoji": "🌸",
+                  "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "feelings",
+              "label": "感受",
+              "labelEn": "Feelings",
+              "color": "purple",
+              "items": [
+                {
+                  "text": "Relaxed",
+                  "hint": "放松",
+                  "emoji": "😌",
+                  "imageUrl": "https://images.unsplash.com/photo-1490750967868-88df5691cc2b?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Happy",
+                  "hint": "开心",
+                  "emoji": "😄",
+                  "imageUrl": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Peaceful",
+                  "hint": "宁静",
+                  "emoji": "🕊️",
+                  "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "sentences",
+              "label": "句型",
+              "labelEn": "Sentences",
+              "color": "green",
+              "items": [
+                {
+                  "text": "It smells fresh because the flower has a lovely scent.",
+                  "hint": "它闻起来清新，因为花朵有美丽的香味。",
+                  "emoji": "🌸",
+                  "imageUrl": "https://images.unsplash.com/photo-1490750967868-88df5691cc2b?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "If we plant more flowers, the garden smells amazing.",
+                  "hint": "如果我们多种花，花园闻起来会很棒。",
+                  "emoji": "🌿",
+                  "imageUrl": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "water-turns-ice",
+          "name": "水变成冰",
+          "nameEn": "Water Turns into Ice",
+          "emoji": "🧊",
+          "video": "/videos/water-turns-ice.mp4",
+          "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+          "tabs": [
+            {
+              "id": "words",
+              "label": "单词",
+              "labelEn": "Words",
+              "color": "purple",
+              "items": [
+                {
+                  "text": "Freeze",
+                  "hint": "结冰",
+                  "emoji": "🧊",
+                  "imageUrl": "https://images.unsplash.com/photo-1547483238-f400e65ccd56?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Cold",
+                  "hint": "寒冷",
+                  "emoji": "🥶",
+                  "imageUrl": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Temperature",
+                  "hint": "温度",
+                  "emoji": "🌡️",
+                  "imageUrl": "https://images.unsplash.com/photo-1530026186672-2cd00ffc50fe?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Solid",
+                  "hint": "固体",
+                  "emoji": "🔷",
+                  "imageUrl": "https://images.unsplash.com/photo-1547483238-f400e65ccd56?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "commands",
+              "label": "指令",
+              "labelEn": "Commands",
+              "color": "blue",
+              "items": [
+                {
+                  "text": "Pour water into the ice cube tray",
+                  "hint": "把水倒进冰格",
+                  "emoji": "💧",
+                  "imageUrl": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Put it in the freezer overnight",
+                  "hint": "放进冰箱冷冻一晚上",
+                  "emoji": "🧊",
+                  "imageUrl": "https://images.unsplash.com/photo-1547483238-f400e65ccd56?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Check what happened in the morning",
+                  "hint": "早上去看看发生了什么",
+                  "emoji": "🌅",
+                  "imageUrl": "https://images.unsplash.com/photo-1500534314209-a157a0f02af2?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "feelings",
+              "label": "感受",
+              "labelEn": "Feelings",
+              "color": "purple",
+              "items": [
+                {
+                  "text": "Curious",
+                  "hint": "好奇",
+                  "emoji": "🤔",
+                  "imageUrl": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Surprised",
+                  "hint": "惊讶",
+                  "emoji": "😲",
+                  "imageUrl": "https://images.unsplash.com/photo-1547483238-f400e65ccd56?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Amazed",
+                  "hint": "惊叹",
+                  "emoji": "😮",
+                  "imageUrl": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "sentences",
+              "label": "句型",
+              "labelEn": "Sentences",
+              "color": "green",
+              "items": [
+                {
+                  "text": "Water turns into ice because it is very cold.",
+                  "hint": "水变成冰，是因为温度非常低。",
+                  "emoji": "🧊",
+                  "imageUrl": "https://images.unsplash.com/photo-1547483238-f400e65ccd56?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "If the temperature drops below zero, water will freeze.",
+                  "hint": "如果温度降到零度以下，水就会结冰。",
+                  "emoji": "🌡️",
+                  "imageUrl": "https://images.unsplash.com/photo-1530026186672-2cd00ffc50fe?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ice-melting",
+          "name": "冰融化了",
+          "nameEn": "Ice is Melting!",
+          "emoji": "💧",
+          "video": "/videos/ice-melting.mp4",
+          "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+          "tabs": [
+            {
+              "id": "words",
+              "label": "单词",
+              "labelEn": "Words",
+              "color": "purple",
+              "items": [
+                {
+                  "text": "Melt",
+                  "hint": "融化",
+                  "emoji": "🌊",
+                  "imageUrl": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Warm",
+                  "hint": "温暖",
+                  "emoji": "☀️",
+                  "imageUrl": "https://images.unsplash.com/photo-1500534314209-a157a0f02af2?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Drip",
+                  "hint": "滴落",
+                  "emoji": "💧",
+                  "imageUrl": "https://images.unsplash.com/photo-1515041357472-d8b48f05baf1?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Liquid",
+                  "hint": "液体",
+                  "emoji": "🫗",
+                  "imageUrl": "https://images.unsplash.com/photo-1547483238-f400e65ccd56?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "commands",
+              "label": "指令",
+              "labelEn": "Commands",
+              "color": "blue",
+              "items": [
+                {
+                  "text": "Hold an ice cube in your warm hand",
+                  "hint": "把冰块握在温暖的手里",
+                  "emoji": "✋",
+                  "imageUrl": "https://images.unsplash.com/photo-1547483238-f400e65ccd56?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Watch the drops fall",
+                  "hint": "看水滴滴落",
+                  "emoji": "💧",
+                  "imageUrl": "https://images.unsplash.com/photo-1515041357472-d8b48f05baf1?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Time how fast the ice melts",
+                  "hint": "计时冰块多快融化",
+                  "emoji": "⏱️",
+                  "imageUrl": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "feelings",
+              "label": "感受",
+              "labelEn": "Feelings",
+              "color": "purple",
+              "items": [
+                {
+                  "text": "Curious",
+                  "hint": "好奇",
+                  "emoji": "🤔",
+                  "imageUrl": "https://images.unsplash.com/photo-1547483238-f400e65ccd56?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Patient",
+                  "hint": "耐心",
+                  "emoji": "😊",
+                  "imageUrl": "https://images.unsplash.com/photo-1529390079861-591de354faf5?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Thoughtful",
+                  "hint": "若有所思",
+                  "emoji": "🧐",
+                  "imageUrl": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "sentences",
+              "label": "句型",
+              "labelEn": "Sentences",
+              "color": "green",
+              "items": [
+                {
+                  "text": "Ice melts because the temperature becomes warm.",
+                  "hint": "冰融化了，因为温度变暖了。",
+                  "emoji": "💧",
+                  "imageUrl": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "If we heat the ice, it turns back into water.",
+                  "hint": "如果我们加热冰，它就会重新变回水。",
+                  "emoji": "🌡️",
+                  "imageUrl": "https://images.unsplash.com/photo-1500534314209-a157a0f02af2?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "rainbow-appears",
+          "name": "彩虹出现了",
+          "nameEn": "A Rainbow Appears!",
+          "emoji": "🌈",
+          "video": "/videos/rainbow-appears.mp4",
+          "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+          "tabs": [
+            {
+              "id": "words",
+              "label": "单词",
+              "labelEn": "Words",
+              "color": "purple",
+              "items": [
+                {
+                  "text": "Rainbow",
+                  "hint": "彩虹",
+                  "emoji": "🌈",
+                  "imageUrl": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Sunlight",
+                  "hint": "阳光",
+                  "emoji": "☀️",
+                  "imageUrl": "https://images.unsplash.com/photo-1500534314209-a157a0f02af2?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Raindrop",
+                  "hint": "雨滴",
+                  "emoji": "🌧️",
+                  "imageUrl": "https://images.unsplash.com/photo-1515041357472-d8b48f05baf1?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Prism",
+                  "hint": "棱镜",
+                  "emoji": "🔮",
+                  "imageUrl": "https://images.unsplash.com/photo-1579547945413-497e1b99dac0?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "commands",
+              "label": "指令",
+              "labelEn": "Commands",
+              "color": "blue",
+              "items": [
+                {
+                  "text": "Look for the rainbow after the rain",
+                  "hint": "雨后去寻找彩虹",
+                  "emoji": "🌈",
+                  "imageUrl": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Count the colours of the rainbow",
+                  "hint": "数数彩虹的颜色",
+                  "emoji": "🎨",
+                  "imageUrl": "https://images.unsplash.com/photo-1579547945413-497e1b99dac0?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Try to make a rainbow with a hose",
+                  "hint": "试试用水管制造彩虹",
+                  "emoji": "💧",
+                  "imageUrl": "https://images.unsplash.com/photo-1515041357472-d8b48f05baf1?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "feelings",
+              "label": "感受",
+              "labelEn": "Feelings",
+              "color": "purple",
+              "items": [
+                {
+                  "text": "Magical",
+                  "hint": "神奇",
+                  "emoji": "✨",
+                  "imageUrl": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Joyful",
+                  "hint": "喜悦",
+                  "emoji": "😄",
+                  "imageUrl": "https://images.unsplash.com/photo-1495107334309-fcf20504a5ab?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Amazed",
+                  "hint": "惊叹",
+                  "emoji": "😮",
+                  "imageUrl": "https://images.unsplash.com/photo-1579547945413-497e1b99dac0?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "sentences",
+              "label": "句型",
+              "labelEn": "Sentences",
+              "color": "green",
+              "items": [
+                {
+                  "text": "A rainbow appears because sunlight passes through raindrops.",
+                  "hint": "彩虹出现，是因为阳光穿过雨滴。",
+                  "emoji": "🌈",
+                  "imageUrl": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "If there is no sunlight, we cannot see a rainbow.",
+                  "hint": "如果没有阳光，我们就看不到彩虹。",
+                  "emoji": "☀️",
+                  "imageUrl": "https://images.unsplash.com/photo-1500534314209-a157a0f02af2?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "windmill-spinning",
+          "name": "风车在转动",
+          "nameEn": "The Windmill is Spinning",
+          "emoji": "🌬️",
+          "video": "/videos/windmill-spinning.mp4",
+          "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+          "tabs": [
+            {
+              "id": "words",
+              "label": "单词",
+              "labelEn": "Words",
+              "color": "purple",
+              "items": [
+                {
+                  "text": "Wind",
+                  "hint": "风",
+                  "emoji": "🌬️",
+                  "imageUrl": "https://images.unsplash.com/photo-1509281373149-e957c6296406?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Spin",
+                  "hint": "旋转",
+                  "emoji": "🌀",
+                  "imageUrl": "https://images.unsplash.com/photo-1466629437334-b4f6603563c5?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Blade",
+                  "hint": "叶片",
+                  "emoji": "🍃",
+                  "imageUrl": "https://images.unsplash.com/photo-1509281373149-e957c6296406?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Energy",
+                  "hint": "能量",
+                  "emoji": "⚡",
+                  "imageUrl": "https://images.unsplash.com/photo-1466629437334-b4f6603563c5?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "commands",
+              "label": "指令",
+              "labelEn": "Commands",
+              "color": "blue",
+              "items": [
+                {
+                  "text": "Blow on the windmill blades",
+                  "hint": "对着风车叶片吹气",
+                  "emoji": "🌬️",
+                  "imageUrl": "https://images.unsplash.com/photo-1509281373149-e957c6296406?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Watch how fast it spins",
+                  "hint": "看它转得多快",
+                  "emoji": "🌀",
+                  "imageUrl": "https://images.unsplash.com/photo-1466629437334-b4f6603563c5?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Blow harder and see what changes",
+                  "hint": "用力吹，看看会有什么变化",
+                  "emoji": "💨",
+                  "imageUrl": "https://images.unsplash.com/photo-1534088568595-a066f410bcda?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "feelings",
+              "label": "感受",
+              "labelEn": "Feelings",
+              "color": "purple",
+              "items": [
+                {
+                  "text": "Playful",
+                  "hint": "爱玩",
+                  "emoji": "😄",
+                  "imageUrl": "https://images.unsplash.com/photo-1509281373149-e957c6296406?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Curious",
+                  "hint": "好奇",
+                  "emoji": "🤔",
+                  "imageUrl": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Excited",
+                  "hint": "兴奋",
+                  "emoji": "🤩",
+                  "imageUrl": "https://images.unsplash.com/photo-1466629437334-b4f6603563c5?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "sentences",
+              "label": "句型",
+              "labelEn": "Sentences",
+              "color": "green",
+              "items": [
+                {
+                  "text": "The windmill spins because the wind pushes the blades.",
+                  "hint": "风车旋转，因为风推动了叶片。",
+                  "emoji": "🌬️",
+                  "imageUrl": "https://images.unsplash.com/photo-1509281373149-e957c6296406?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "If the wind blows harder, the windmill spins faster.",
+                  "hint": "如果风吹得更大，风车就会转得更快。",
+                  "emoji": "⚡",
+                  "imageUrl": "https://images.unsplash.com/photo-1466629437334-b4f6603563c5?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "watching-moon",
+          "name": "观察月亮的变化",
+          "nameEn": "Watching the Moon Change",
+          "emoji": "🌙",
+          "video": "/videos/watching-moon.mp4",
+          "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+          "tabs": [
+            {
+              "id": "words",
+              "label": "单词",
+              "labelEn": "Words",
+              "color": "purple",
+              "items": [
+                {
+                  "text": "Full moon",
+                  "hint": "满月",
+                  "emoji": "🌕",
+                  "imageUrl": "https://images.unsplash.com/photo-1532693322450-2cb5c511067d?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Crescent",
+                  "hint": "弯月",
+                  "emoji": "🌙",
+                  "imageUrl": "https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Phase",
+                  "hint": "月相",
+                  "emoji": "🔄",
+                  "imageUrl": "https://images.unsplash.com/photo-1532693322450-2cb5c511067d?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Night sky",
+                  "hint": "夜空",
+                  "emoji": "🌌",
+                  "imageUrl": "https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "commands",
+              "label": "指令",
+              "labelEn": "Commands",
+              "color": "blue",
+              "items": [
+                {
+                  "text": "Look at the moon every night this week",
+                  "hint": "这周每天晚上都看看月亮",
+                  "emoji": "🌙",
+                  "imageUrl": "https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Draw the shape you see each night",
+                  "hint": "把每晚看到的形状画下来",
+                  "emoji": "✏️",
+                  "imageUrl": "https://images.unsplash.com/photo-1452860606245-08befc0ff44b?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Compare your drawings at the end",
+                  "hint": "最后比较你的所有画",
+                  "emoji": "📊",
+                  "imageUrl": "https://images.unsplash.com/photo-1532693322450-2cb5c511067d?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "feelings",
+              "label": "感受",
+              "labelEn": "Feelings",
+              "color": "purple",
+              "items": [
+                {
+                  "text": "Dreamy",
+                  "hint": "如梦",
+                  "emoji": "💭",
+                  "imageUrl": "https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Curious",
+                  "hint": "好奇",
+                  "emoji": "🤔",
+                  "imageUrl": "https://images.unsplash.com/photo-1532693322450-2cb5c511067d?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "Amazed",
+                  "hint": "惊叹",
+                  "emoji": "😮",
+                  "imageUrl": "https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            },
+            {
+              "id": "sentences",
+              "label": "句型",
+              "labelEn": "Sentences",
+              "color": "green",
+              "items": [
+                {
+                  "text": "The moon changes shape because we see different parts lit by the sun.",
+                  "hint": "月亮形状变化，是因为我们看到太阳照射的不同部分。",
+                  "emoji": "🌕",
+                  "imageUrl": "https://images.unsplash.com/photo-1532693322450-2cb5c511067d?w=400&h=400&fit=crop&auto=format&q=80"
+                },
+                {
+                  "text": "If we watch every night, we can see the full moon cycle.",
+                  "hint": "如果我们每晚观察，就能看到完整的月相变化。",
+                  "emoji": "🌙",
+                  "imageUrl": "https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?w=400&h=400&fit=crop&auto=format&q=80"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

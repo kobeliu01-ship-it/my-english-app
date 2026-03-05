@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Global font: Quicksand for all Latin / number text ── */
+html, body {
+  font-family: 'Quicksand', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  letter-spacing: 0.5px;
+  background: linear-gradient(135deg, #f5f7ff 0%, #fef9ff 55%, #f0f9ff 100%);
+  min-height: 100vh;
+}
+
+/* ── Glassmorphism candy border — add class="glass-card" to any card ── */
+.glass-card {
+  border: 1px solid rgba(255, 255, 255, 0.52) !important;
+  box-shadow:
+    0 4px 16px rgba(0, 0, 0, 0.09),
+    inset 0 1px 0 rgba(255, 255, 255, 0.42) !important;
+}
+
+@layer utilities {
+  .animate-fade-in {
+    animation: fadeIn 0.3s ease-out;
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes kenBurns {
+  from { transform: scale(1.0); }
+  to   { transform: scale(1.08); }
+}

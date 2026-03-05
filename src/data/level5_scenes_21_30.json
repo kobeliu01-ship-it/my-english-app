@@ -1,0 +1,422 @@
+[
+  {
+    "id": "giant-sun",
+    "name": "观察巨大的太阳",
+    "nameEn": "The Giant Sun",
+    "emoji": "☀️",
+    "video": "/videos/giant-sun.mp4",
+    "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+    "tabs": [
+      {
+        "id": "words", "label": "单词", "labelEn": "Words", "color": "purple",
+        "items": [
+          { "text": "Star",   "hint": "恒星",   "emoji": "⭐", "imageUrl": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Bright", "hint": "明亮",   "emoji": "✨", "imageUrl": "https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Heat",   "hint": "热量",   "emoji": "🔥", "imageUrl": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Solar",  "hint": "太阳的", "emoji": "🌞", "imageUrl": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=400&h=400&fit=crop&auto=format&q=80" }
+        ]
+      },
+      {
+        "id": "commands", "label": "指令", "labelEn": "Commands", "color": "blue",
+        "items": [
+          { "text": "Never look directly at the sun",        "hint": "永远不要直视太阳",         "emoji": "🚫", "imageUrl": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Use special solar glasses to observe",  "hint": "用专用太阳眼镜来观察",     "emoji": "🕶️", "imageUrl": "https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Draw how big you think the sun is",     "hint": "画出你认为太阳有多大",     "emoji": "✏️", "imageUrl": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=400&h=400&fit=crop&auto=format&q=80" }
+        ]
+      },
+      {
+        "id": "feelings", "label": "感受", "labelEn": "Feelings", "color": "purple",
+        "items": [
+          { "text": "Amazed",    "hint": "震撼",   "emoji": "😮", "imageUrl": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Tiny",      "hint": "渺小",   "emoji": "🤏", "imageUrl": "https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Curious",   "hint": "好奇",   "emoji": "🤔", "imageUrl": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=400&h=400&fit=crop&auto=format&q=80" }
+        ]
+      },
+      {
+        "id": "sentences", "label": "句型", "labelEn": "Sentences", "color": "green",
+        "items": [
+          { "text": "The sun is so bright because it is a giant burning star.",   "hint": "太阳这么明亮，因为它是一颗巨大的燃烧恒星。", "emoji": "☀️", "imageUrl": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "If there were no sun, there would be no life on Earth.",     "hint": "如果没有太阳，地球上就不会有生命。",           "emoji": "🌍", "imageUrl": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=400&h=400&fit=crop&auto=format&q=80" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "eight-planets",
+    "name": "认识八大行星",
+    "nameEn": "The Eight Planets",
+    "emoji": "🪐",
+    "video": "/videos/eight-planets.mp4",
+    "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+    "tabs": [
+      {
+        "id": "words", "label": "单词", "labelEn": "Words", "color": "purple",
+        "items": [
+          { "text": "Planet",  "hint": "行星",   "emoji": "🪐", "imageUrl": "https://images.unsplash.com/photo-1614732414444-096e5f1122d5?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Orbit",   "hint": "轨道",   "emoji": "🔄", "imageUrl": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Saturn",  "hint": "土星",   "emoji": "🪐", "imageUrl": "https://images.unsplash.com/photo-1614732414444-096e5f1122d5?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Jupiter", "hint": "木星",   "emoji": "🌑", "imageUrl": "https://images.unsplash.com/photo-1532693322450-2cb5c511067d?w=400&h=400&fit=crop&auto=format&q=80" }
+        ]
+      },
+      {
+        "id": "commands", "label": "指令", "labelEn": "Commands", "color": "blue",
+        "items": [
+          { "text": "Name the planets in order from the sun",  "hint": "按距离太阳的顺序说出各行星名称", "emoji": "📋", "imageUrl": "https://images.unsplash.com/photo-1614732414444-096e5f1122d5?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Point to Earth on the solar system chart","hint": "在太阳系图上指出地球",           "emoji": "🌍", "imageUrl": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Draw your favourite planet",             "hint": "画出你最喜欢的行星",           "emoji": "✏️", "imageUrl": "https://images.unsplash.com/photo-1532693322450-2cb5c511067d?w=400&h=400&fit=crop&auto=format&q=80" }
+        ]
+      },
+      {
+        "id": "feelings", "label": "感受", "labelEn": "Feelings", "color": "purple",
+        "items": [
+          { "text": "Fascinated", "hint": "着迷",   "emoji": "🤩", "imageUrl": "https://images.unsplash.com/photo-1614732414444-096e5f1122d5?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Curious",    "hint": "好奇",   "emoji": "🤔", "imageUrl": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Tiny",       "hint": "渺小",   "emoji": "🤏", "imageUrl": "https://images.unsplash.com/photo-1532693322450-2cb5c511067d?w=400&h=400&fit=crop&auto=format&q=80" }
+        ]
+      },
+      {
+        "id": "sentences", "label": "句型", "labelEn": "Sentences", "color": "green",
+        "items": [
+          { "text": "All eight planets travel around the sun in their own orbit.",  "hint": "八大行星都沿着各自的轨道绕太阳运行。",     "emoji": "🪐", "imageUrl": "https://images.unsplash.com/photo-1614732414444-096e5f1122d5?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Because Saturn has rings, it is easy to recognise.",           "hint": "因为土星有光环，所以很容易辨认。",         "emoji": "🔄", "imageUrl": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=400&h=400&fit=crop&auto=format&q=80" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "put-on-spacesuit",
+    "name": "穿上宇航服",
+    "nameEn": "Putting on a Spacesuit",
+    "emoji": "👨‍🚀",
+    "video": "/videos/put-on-spacesuit.mp4",
+    "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+    "tabs": [
+      {
+        "id": "words", "label": "单词", "labelEn": "Words", "color": "purple",
+        "items": [
+          { "text": "Spacesuit", "hint": "宇航服", "emoji": "👨‍🚀", "imageUrl": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Helmet",    "hint": "头盔",   "emoji": "⛑️", "imageUrl": "https://images.unsplash.com/photo-1614726365952-510103b1bbb4?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Oxygen",    "hint": "氧气",   "emoji": "💨", "imageUrl": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Seal",      "hint": "密封",   "emoji": "🔒", "imageUrl": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=400&h=400&fit=crop&auto=format&q=80" }
+        ]
+      },
+      {
+        "id": "commands", "label": "指令", "labelEn": "Commands", "color": "blue",
+        "items": [
+          { "text": "Check your helmet is sealed tight",     "hint": "检查头盔是否密封紧",       "emoji": "⛑️", "imageUrl": "https://images.unsplash.com/photo-1614726365952-510103b1bbb4?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Make sure your oxygen tank is full",    "hint": "确认氧气罐是满的",         "emoji": "💨", "imageUrl": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Move your arms to test the suit",       "hint": "活动手臂测试宇航服",       "emoji": "💪", "imageUrl": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=400&h=400&fit=crop&auto=format&q=80" }
+        ]
+      },
+      {
+        "id": "feelings", "label": "感受", "labelEn": "Feelings", "color": "purple",
+        "items": [
+          { "text": "Ready",    "hint": "准备好了", "emoji": "💪", "imageUrl": "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Brave",    "hint": "勇敢",     "emoji": "🦁", "imageUrl": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Excited",  "hint": "兴奋",     "emoji": "🤩", "imageUrl": "https://images.unsplash.com/photo-1614726365952-510103b1bbb4?w=400&h=400&fit=crop&auto=format&q=80" }
+        ]
+      },
+      {
+        "id": "sentences", "label": "句型", "labelEn": "Sentences", "color": "green",
+        "items": [
+          { "text": "We must wear a spacesuit because there is no air in space.",    "hint": "我们必须穿宇航服，因为太空里没有空气。",     "emoji": "👨‍🚀", "imageUrl": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "If the helmet is not sealed, the astronaut cannot breathe.",    "hint": "如果头盔没有密封，宇航员就无法呼吸。",       "emoji": "⛑️", "imageUrl": "https://images.unsplash.com/photo-1614726365952-510103b1bbb4?w=400&h=400&fit=crop&auto=format&q=80" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "inside-rocket",
+    "name": "坐在火箭里",
+    "nameEn": "Inside the Rocket",
+    "emoji": "🚀",
+    "video": "/videos/inside-rocket.mp4",
+    "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+    "tabs": [
+      {
+        "id": "words", "label": "单词", "labelEn": "Words", "color": "purple",
+        "items": [
+          { "text": "Rocket",   "hint": "火箭",   "emoji": "🚀", "imageUrl": "https://images.unsplash.com/photo-1541873676-a18131494184?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Cockpit",  "hint": "驾驶舱", "emoji": "🎮", "imageUrl": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Thrust",   "hint": "推力",   "emoji": "💥", "imageUrl": "https://images.unsplash.com/photo-1541873676-a18131494184?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Seatbelt", "hint": "安全带", "emoji": "🔒", "imageUrl": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=400&h=400&fit=crop&auto=format&q=80" }
+        ]
+      },
+      {
+        "id": "commands", "label": "指令", "labelEn": "Commands", "color": "blue",
+        "items": [
+          { "text": "Buckle your seatbelt tightly",       "hint": "把安全带扣紧",           "emoji": "🔒", "imageUrl": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Check all the buttons and screens",  "hint": "检查所有按钮和屏幕",     "emoji": "🎮", "imageUrl": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Sit up straight and hold on tight",  "hint": "坐直并抓紧",             "emoji": "✊", "imageUrl": "https://images.unsplash.com/photo-1541873676-a18131494184?w=400&h=400&fit=crop&auto=format&q=80" }
+        ]
+      },
+      {
+        "id": "feelings", "label": "感受", "labelEn": "Feelings", "color": "purple",
+        "items": [
+          { "text": "Ready",    "hint": "准备好了",   "emoji": "💪", "imageUrl": "https://images.unsplash.com/photo-1541873676-a18131494184?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Thrilled", "hint": "激动",       "emoji": "🎉", "imageUrl": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Nervous",  "hint": "紧张",       "emoji": "😬", "imageUrl": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=400&h=400&fit=crop&auto=format&q=80" }
+        ]
+      },
+      {
+        "id": "sentences", "label": "句型", "labelEn": "Sentences", "color": "green",
+        "items": [
+          { "text": "I am ready for takeoff!",                             "hint": "我准备好发射了！",                         "emoji": "🚀", "imageUrl": "https://images.unsplash.com/photo-1541873676-a18131494184?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Because the rocket uses fuel, it can reach the sky.", "hint": "因为火箭使用燃料，所以它能飞上天空。",     "emoji": "💥", "imageUrl": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=400&h=400&fit=crop&auto=format&q=80" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "countdown",
+    "name": "倒计时：3, 2, 1!",
+    "nameEn": "The Countdown!",
+    "emoji": "⏳",
+    "video": "/videos/countdown.mp4",
+    "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+    "tabs": [
+      {
+        "id": "words", "label": "单词", "labelEn": "Words", "color": "purple",
+        "items": [
+          { "text": "Countdown",  "hint": "倒计时",   "emoji": "⏳", "imageUrl": "https://images.unsplash.com/photo-1508558936510-0af1e3cccbab?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Launch",     "hint": "发射",     "emoji": "🚀", "imageUrl": "https://images.unsplash.com/photo-1541873676-a18131494184?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Blast off",  "hint": "点火升空", "emoji": "💥", "imageUrl": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Ignite",     "hint": "点火",     "emoji": "🔥", "imageUrl": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=400&h=400&fit=crop&auto=format&q=80" }
+        ]
+      },
+      {
+        "id": "commands", "label": "指令", "labelEn": "Commands", "color": "blue",
+        "items": [
+          { "text": "Count down together: 3, 2, 1!",  "hint": "一起倒数：3, 2, 1！",     "emoji": "⏳", "imageUrl": "https://images.unsplash.com/photo-1508558936510-0af1e3cccbab?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Shout BLAST OFF! at zero",        "hint": "数到零时大喊点火升空！",   "emoji": "📢", "imageUrl": "https://images.unsplash.com/photo-1541873676-a18131494184?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Hold on tight for the launch",    "hint": "发射时紧紧抓住",           "emoji": "✊", "imageUrl": "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=400&h=400&fit=crop&auto=format&q=80" }
+        ]
+      },
+      {
+        "id": "feelings", "label": "感受", "labelEn": "Feelings", "color": "purple",
+        "items": [
+          { "text": "Thrilled",  "hint": "激动",   "emoji": "🎉", "imageUrl": "https://images.unsplash.com/photo-1541873676-a18131494184?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Tense",     "hint": "紧绷",   "emoji": "😤", "imageUrl": "https://images.unsplash.com/photo-1508558936510-0af1e3cccbab?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Brave",     "hint": "勇敢",   "emoji": "🦁", "imageUrl": "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=400&h=400&fit=crop&auto=format&q=80" }
+        ]
+      },
+      {
+        "id": "sentences", "label": "句型", "labelEn": "Sentences", "color": "green",
+        "items": [
+          { "text": "Three, two, one — BLAST OFF!",                         "hint": "三，二，一——点火升空！",                   "emoji": "🚀", "imageUrl": "https://images.unsplash.com/photo-1541873676-a18131494184?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "If the engines ignite, the rocket will leave Earth.",  "hint": "如果发动机点火，火箭就会离开地球。",       "emoji": "🔥", "imageUrl": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=400&h=400&fit=crop&auto=format&q=80" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "floating-in-space",
+    "name": "在太空中飘浮",
+    "nameEn": "Floating in Space",
+    "emoji": "🌌",
+    "video": "/videos/floating-in-space.mp4",
+    "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+    "tabs": [
+      {
+        "id": "words", "label": "单词", "labelEn": "Words", "color": "purple",
+        "items": [
+          { "text": "Float",       "hint": "飘浮",   "emoji": "🌊", "imageUrl": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Gravity",     "hint": "引力",   "emoji": "⬇️", "imageUrl": "https://images.unsplash.com/photo-1614732414444-096e5f1122d5?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Weightless",  "hint": "失重",   "emoji": "🤸", "imageUrl": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Orbit",       "hint": "轨道",   "emoji": "🔄", "imageUrl": "https://images.unsplash.com/photo-1532693322450-2cb5c511067d?w=400&h=400&fit=crop&auto=format&q=80" }
+        ]
+      },
+      {
+        "id": "commands", "label": "指令", "labelEn": "Commands", "color": "blue",
+        "items": [
+          { "text": "Spread your arms and pretend to float",    "hint": "伸开手臂假装在飘浮",     "emoji": "🤸", "imageUrl": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Move in slow motion like an astronaut",    "hint": "像宇航员一样慢动作移动", "emoji": "👨‍🚀", "imageUrl": "https://images.unsplash.com/photo-1614726365952-510103b1bbb4?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Describe how floating in space feels",     "hint": "描述在太空中飘浮的感觉", "emoji": "🗣️", "imageUrl": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=400&h=400&fit=crop&auto=format&q=80" }
+        ]
+      },
+      {
+        "id": "feelings", "label": "感受", "labelEn": "Feelings", "color": "purple",
+        "items": [
+          { "text": "Free",      "hint": "自由",   "emoji": "🕊️", "imageUrl": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Amazed",    "hint": "惊叹",   "emoji": "😮", "imageUrl": "https://images.unsplash.com/photo-1614732414444-096e5f1122d5?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Peaceful",  "hint": "宁静",   "emoji": "😌", "imageUrl": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=400&h=400&fit=crop&auto=format&q=80" }
+        ]
+      },
+      {
+        "id": "sentences", "label": "句型", "labelEn": "Sentences", "color": "green",
+        "items": [
+          { "text": "We float in space because there is no gravity.",        "hint": "我们在太空中飘浮，因为没有引力。",           "emoji": "🌌", "imageUrl": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "If there were gravity in space, we could not float.",   "hint": "如果太空中有引力，我们就无法飘浮了。",     "emoji": "⬇️", "imageUrl": "https://images.unsplash.com/photo-1614732414444-096e5f1122d5?w=400&h=400&fit=crop&auto=format&q=80" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "looking-at-earth",
+    "name": "看到美丽的地球",
+    "nameEn": "Looking at Blue Earth",
+    "emoji": "🌍",
+    "video": "/videos/looking-at-earth.mp4",
+    "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+    "tabs": [
+      {
+        "id": "words", "label": "单词", "labelEn": "Words", "color": "purple",
+        "items": [
+          { "text": "Earth",   "hint": "地球",   "emoji": "🌍", "imageUrl": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Ocean",   "hint": "海洋",   "emoji": "🌊", "imageUrl": "https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Home",    "hint": "家园",   "emoji": "🏠", "imageUrl": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Precious","hint": "珍贵",   "emoji": "💎", "imageUrl": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=400&h=400&fit=crop&auto=format&q=80" }
+        ]
+      },
+      {
+        "id": "commands", "label": "指令", "labelEn": "Commands", "color": "blue",
+        "items": [
+          { "text": "Look at Earth through the window",        "hint": "透过舷窗看地球",           "emoji": "🪟", "imageUrl": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Find the blue ocean from up here",        "hint": "从这里找到蓝色的海洋",     "emoji": "🌊", "imageUrl": "https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Promise to protect our beautiful home",   "hint": "承诺保护我们美丽的家园",   "emoji": "🤝", "imageUrl": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=400&h=400&fit=crop&auto=format&q=80" }
+        ]
+      },
+      {
+        "id": "feelings", "label": "感受", "labelEn": "Feelings", "color": "purple",
+        "items": [
+          { "text": "Grateful",  "hint": "感恩",   "emoji": "🙏", "imageUrl": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Amazed",    "hint": "震撼",   "emoji": "😮", "imageUrl": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Proud",     "hint": "自豪",   "emoji": "😊", "imageUrl": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=400&h=400&fit=crop&auto=format&q=80" }
+        ]
+      },
+      {
+        "id": "sentences", "label": "句型", "labelEn": "Sentences", "color": "green",
+        "items": [
+          { "text": "Our home is beautiful because it has water and life.",     "hint": "我们的家园很美丽，因为它有水和生命。",     "emoji": "🌍", "imageUrl": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "If we don't protect Earth, we will lose our only home.",   "hint": "如果我们不保护地球，我们将失去唯一的家园。","emoji": "💎", "imageUrl": "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=400&h=400&fit=crop&auto=format&q=80" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "collecting-moon-rocks",
+    "name": "收集月球岩石",
+    "nameEn": "Collecting Moon Rocks",
+    "emoji": "🌑",
+    "video": "/videos/collecting-moon-rocks.mp4",
+    "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+    "tabs": [
+      {
+        "id": "words", "label": "单词", "labelEn": "Words", "color": "purple",
+        "items": [
+          { "text": "Crater",  "hint": "陨石坑", "emoji": "🕳️", "imageUrl": "https://images.unsplash.com/photo-1532693322450-2cb5c511067d?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Dust",    "hint": "尘埃",   "emoji": "🌫️", "imageUrl": "https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Sample",  "hint": "样本",   "emoji": "🧪", "imageUrl": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Surface", "hint": "表面",   "emoji": "🌑", "imageUrl": "https://images.unsplash.com/photo-1614726365952-510103b1bbb4?w=400&h=400&fit=crop&auto=format&q=80" }
+        ]
+      },
+      {
+        "id": "commands", "label": "指令", "labelEn": "Commands", "color": "blue",
+        "items": [
+          { "text": "Use your tool to pick up the rock",    "hint": "用工具拾起岩石",           "emoji": "🔧", "imageUrl": "https://images.unsplash.com/photo-1532693322450-2cb5c511067d?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Place each sample in a sealed bag",   "hint": "把每个样本放入密封袋",     "emoji": "🧪", "imageUrl": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Label where you found each rock",     "hint": "标记每块岩石的发现地点",   "emoji": "🏷️", "imageUrl": "https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?w=400&h=400&fit=crop&auto=format&q=80" }
+        ]
+      },
+      {
+        "id": "feelings", "label": "感受", "labelEn": "Feelings", "color": "purple",
+        "items": [
+          { "text": "Focused",   "hint": "专注",   "emoji": "🎯", "imageUrl": "https://images.unsplash.com/photo-1532693322450-2cb5c511067d?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Excited",   "hint": "兴奋",   "emoji": "🤩", "imageUrl": "https://images.unsplash.com/photo-1614726365952-510103b1bbb4?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Amazed",    "hint": "惊叹",   "emoji": "😮", "imageUrl": "https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?w=400&h=400&fit=crop&auto=format&q=80" }
+        ]
+      },
+      {
+        "id": "sentences", "label": "句型", "labelEn": "Sentences", "color": "green",
+        "items": [
+          { "text": "The moon has craters because meteorites crashed into it.",  "hint": "月球有陨石坑，是因为陨石撞击了它。",       "emoji": "🕳️", "imageUrl": "https://images.unsplash.com/photo-1532693322450-2cb5c511067d?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "If we study moon rocks, we learn about our solar system.", "hint": "如果我们研究月球岩石，就能了解我们的太阳系。","emoji": "🧪", "imageUrl": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=400&fit=crop&auto=format&q=80" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fixing-space-station",
+    "name": "修理空间站",
+    "nameEn": "Fixing the Space Station",
+    "emoji": "🛸",
+    "video": "/videos/fixing-space-station.mp4",
+    "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+    "tabs": [
+      {
+        "id": "words", "label": "单词", "labelEn": "Words", "color": "purple",
+        "items": [
+          { "text": "Wrench",   "hint": "扳手",   "emoji": "🔧", "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Repair",   "hint": "修理",   "emoji": "🛠️", "imageUrl": "https://images.unsplash.com/photo-1530026186672-2cd00ffc50fe?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Panel",    "hint": "面板",   "emoji": "🔋", "imageUrl": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Tether",   "hint": "安全绳", "emoji": "🔗", "imageUrl": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=400&h=400&fit=crop&auto=format&q=80" }
+        ]
+      },
+      {
+        "id": "commands", "label": "指令", "labelEn": "Commands", "color": "blue",
+        "items": [
+          { "text": "Use the space wrench carefully",      "hint": "小心地使用太空扳手",       "emoji": "🔧", "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Always keep your tether attached",   "hint": "始终保持安全绳连接",       "emoji": "🔗", "imageUrl": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Check the repair before going back", "hint": "返回前检查修理是否完成",   "emoji": "✅", "imageUrl": "https://images.unsplash.com/photo-1530026186672-2cd00ffc50fe?w=400&h=400&fit=crop&auto=format&q=80" }
+        ]
+      },
+      {
+        "id": "feelings", "label": "感受", "labelEn": "Feelings", "color": "purple",
+        "items": [
+          { "text": "Focused",  "hint": "专注",   "emoji": "🎯", "imageUrl": "https://images.unsplash.com/photo-1530026186672-2cd00ffc50fe?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Careful",  "hint": "谨慎",   "emoji": "🧐", "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Proud",    "hint": "自豪",   "emoji": "😊", "imageUrl": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=400&h=400&fit=crop&auto=format&q=80" }
+        ]
+      },
+      {
+        "id": "sentences", "label": "句型", "labelEn": "Sentences", "color": "green",
+        "items": [
+          { "text": "If the panel breaks, the station loses power.",         "hint": "如果面板损坏，空间站就会失去电力。",       "emoji": "🔋", "imageUrl": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Because astronauts train hard, they can fix anything.", "hint": "因为宇航员刻苦训练，他们能修好任何东西。", "emoji": "🛠️", "imageUrl": "https://images.unsplash.com/photo-1530026186672-2cd00ffc50fe?w=400&h=400&fit=crop&auto=format&q=80" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scientist-dream",
+    "name": "科学家的终极梦想",
+    "nameEn": "The Scientist's Dream",
+    "emoji": "🌟",
+    "video": "/videos/scientist-dream.mp4",
+    "videoFallback": "https://www.w3schools.com/html/mov_bbb.mp4",
+    "tabs": [
+      {
+        "id": "words", "label": "单词", "labelEn": "Words", "color": "purple",
+        "items": [
+          { "text": "Universe",  "hint": "宇宙",   "emoji": "🌌", "imageUrl": "https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Dream",     "hint": "梦想",   "emoji": "💭", "imageUrl": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Explore",   "hint": "探索",   "emoji": "🗺️", "imageUrl": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Discover",  "hint": "发现",   "emoji": "✨", "imageUrl": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=400&h=400&fit=crop&auto=format&q=80" }
+        ]
+      },
+      {
+        "id": "commands", "label": "指令", "labelEn": "Commands", "color": "blue",
+        "items": [
+          { "text": "Tell everyone your biggest science dream",  "hint": "告诉大家你最大的科学梦想",   "emoji": "🗣️", "imageUrl": "https://images.unsplash.com/photo-1516733725897-1aa73b87c8e8?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Write your dream in your science diary",    "hint": "把你的梦想写进科学日记",     "emoji": "📓", "imageUrl": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Draw the planet you want to visit",         "hint": "画出你想去的那颗星球",       "emoji": "🪐", "imageUrl": "https://images.unsplash.com/photo-1614732414444-096e5f1122d5?w=400&h=400&fit=crop&auto=format&q=80" }
+        ]
+      },
+      {
+        "id": "feelings", "label": "感受", "labelEn": "Feelings", "color": "purple",
+        "items": [
+          { "text": "Hopeful",     "hint": "充满希望", "emoji": "🌟", "imageUrl": "https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Inspired",    "hint": "受到鼓舞", "emoji": "💡", "imageUrl": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "Determined",  "hint": "坚定",     "emoji": "💪", "imageUrl": "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=400&h=400&fit=crop&auto=format&q=80" }
+        ]
+      },
+      {
+        "id": "sentences", "label": "句型", "labelEn": "Sentences", "color": "green",
+        "items": [
+          { "text": "I want to explore the whole universe one day!",            "hint": "我想有一天探索整个宇宙！",                   "emoji": "🌌", "imageUrl": "https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=400&h=400&fit=crop&auto=format&q=80" },
+          { "text": "If I study hard, I can become a real scientist someday.",  "hint": "如果我努力学习，总有一天我能成为真正的科学家。","emoji": "🔬", "imageUrl": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=400&h=400&fit=crop&auto=format&q=80" }
+        ]
+      }
+    ]
+  }
+]
