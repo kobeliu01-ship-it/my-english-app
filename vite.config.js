@@ -7,6 +7,7 @@ import legacy from '@vitejs/plugin-legacy'
 // navigator.mediaDevices.getUserMedia 无需 HTTPS 即可工作。
 // 如需局域网其他设备访问麦克风，才需要加 https: true。
 export default defineConfig({
+  base: '/my-english-app/',
   plugins: [
     react(),
     legacy({
